@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/serendipity/static/js/main.54277093.js",
+    "main.js": "/serendipity/static/js/main.b6b61739.js",
     "index.html": "/serendipity/index.html",
-    "main.54277093.js.map": "/serendipity/static/js/main.54277093.js.map"
+    "main.b6b61739.js.map": "/serendipity/static/js/main.b6b61739.js.map"
   },
   "entrypoints": [
-    "static/js/main.54277093.js"
+    "static/js/main.b6b61739.js"
   ]
 }
