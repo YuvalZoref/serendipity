@@ -1,10 +1,14 @@
-import Header from '../components/Header'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
     <div>
-      <Header />
       <h2>Home page</h2>
+      <button>
+        <Link activeClass='active' to='About'>
+          Click here to see more!
+        </Link>
+      </button>
     </div>
   )
 }

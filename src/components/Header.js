@@ -3,6 +3,6 @@
 
 export default function Header() {
   return (
-    <h1>Header:React</h1>
+    <h1>This will be my header baby!</h1>
   )
 }
