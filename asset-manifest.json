@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/serendipity/static/js/main.b6b61739.js",
-    "index.html": "/serendipity/index.html",
-    "main.b6b61739.js.map": "/serendipity/static/js/main.b6b61739.js.map"
+    "main.js": "/Home/static/js/main.b6b61739.js",
+    "index.html": "/Home/index.html",
+    "main.b6b61739.js.map": "/Home/static/js/main.b6b61739.js.map"
   },
   "entrypoints": [
     "static/js/main.b6b61739.js"
