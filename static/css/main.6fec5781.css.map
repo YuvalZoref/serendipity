@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.6fec5781.css","mappings":"AAAA,EAKE,uBAFA,sBAFA,SACA,UAEA,oBACA,CAEF,KACE","sources":["index.scss"],"sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  text-decoration: none;\n  background: transparent;\n}\nbody {\n  background: #FAF9F6;\n  /* color: #fff; */\n}\n"],"names":[],"sourceRoot":""}
