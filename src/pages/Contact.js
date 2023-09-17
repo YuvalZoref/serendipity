@@ -1,11 +1,15 @@
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import '../pages/styling/contact.scss'
 
 export default function Contact() {
   return (
-    <div className='contact'>
+    <div className='container'>
       <Navbar />
-      <h2>Contact page</h2>
+        <div className='contact'>
+          <h2>Contact page</h2>
+        </div>
+      <Footer />
     </div>
   )
 }

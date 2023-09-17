@@ -1,11 +1,15 @@
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import '../pages/styling/blog.scss'
 
 export default function Blog() {
   return (
-    <div className='blog'>
+    <div className='container'>
       <Navbar />
-      <h2>Blog page</h2>
+        <div className='blog'>
+          <h2>Blog page</h2>
+        </div>
+      <Footer />
     </div>
   )
 }

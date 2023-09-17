@@ -7,18 +7,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 3;
+  background: #e4e3e1;
 
   .logo {
-    object-fit: cover;
-    height: 4rem;
-    width: 4rem;
+    object-fit: contain;
+    height: 5rem;
+    width: 5rem;
+    padding: 0.25rem;
   }
   .navbarDesktopLink {
     margin: 1rem;
     cursor: pointer;
     color: rgb(30, 30, 30);
+  }
+  .navbarDesktopLink:hover {
+    /* border-bottom: 1px solid rgb(30, 30, 30); */
+    opacity: 0.7;
   }
 }

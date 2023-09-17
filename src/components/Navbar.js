@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../components/styling/navbar.scss';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/seren-logo.jpg';
 
 
 export default function Navbar() {
