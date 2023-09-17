@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/serendipity/static/css/main.4f1b7573.css",
-    "main.js": "/serendipity/static/js/main.ffbf1a79.js",
+    "main.css": "/serendipity/static/css/main.21eccfb8.css",
+    "main.js": "/serendipity/static/js/main.e6061579.js",
     "static/media/seren-logo.jpg": "/serendipity/static/media/seren-logo.b35894c5fbfedac3274a.jpg",
     "index.html": "/serendipity/index.html",
-    "main.4f1b7573.css.map": "/serendipity/static/css/main.4f1b7573.css.map",
-    "main.ffbf1a79.js.map": "/serendipity/static/js/main.ffbf1a79.js.map"
+    "main.21eccfb8.css.map": "/serendipity/static/css/main.21eccfb8.css.map",
+    "main.e6061579.js.map": "/serendipity/static/js/main.e6061579.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f1b7573.css",
-    "static/js/main.ffbf1a79.js"
+    "static/css/main.21eccfb8.css",
+    "static/js/main.e6061579.js"
   ]
 }
