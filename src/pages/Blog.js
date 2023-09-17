@@ -1,9 +1,10 @@
-import Header from '../components/Header'
+import Navbar from '../components/Navbar'
+import '../pages/styling/blog.scss'
 
 export default function Blog() {
   return (
-    <div>
-      <Header />
+    <div className='blog'>
+      <Navbar />
       <h2>Blog page</h2>
     </div>
   )

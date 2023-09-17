@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
+import '../components/styling/navbar.scss'
 
 
-export default function Header() {
+export default function Navbar() {
   return (
-    <div className="header">
-      <h1>This will be my header baby!</h1>
-            <button>
+    <div className="navbar">
+      <h1>This will be my Navbar</h1>
+          <button>
           <Link to='../About'>
             Click here to see about!
           </Link>
