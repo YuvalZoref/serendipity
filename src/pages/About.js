@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className='container'>
       <Navbar />
-      <div className='about'>
+      <div id='about'>
         <h2>
           Welcome to Serendipity creative writers, this will be a fantastic landing page!
         </h2>

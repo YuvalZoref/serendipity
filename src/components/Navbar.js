@@ -5,7 +5,7 @@ import Logo from '../assets/seren-logo.jpg';
 
 export default function Navbar() {
   return (
-      <nav className="navbar">
+      <nav id="navbar">
         <img src={Logo} alt='logo' className='logo'/>
         <div className='navbarDesktop'>
           <Link className='navbarDesktopLink' to='../About'>About</Link>
