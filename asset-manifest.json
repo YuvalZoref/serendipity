@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/serendipity/static/css/main.ed00f29b.css",
-    "main.js": "/serendipity/static/js/main.e166748a.js",
+    "main.css": "/serendipity/static/css/main.c45096fd.css",
+    "main.js": "/serendipity/static/js/main.b119c9bf.js",
     "static/media/crescent.png": "/serendipity/static/media/crescent.56ffefca079e1419d426.png",
     "static/media/cloggs2.jpg": "/serendipity/static/media/cloggs2.7a18495b821bd006d4f3.jpg",
     "static/media/fullCircle.jpg": "/serendipity/static/media/fullCircle.23f081bd41c12f44eb70.jpg",
     "static/media/serendipity.png": "/serendipity/static/media/serendipity.ef1ccca2eda3356e410a.png",
-    "static/media/seren-logo.jpg": "/serendipity/static/media/seren-logo.b35894c5fbfedac3274a.jpg",
+    "static/media/serendipity2.png": "/serendipity/static/media/serendipity2.ee3b71262b5be447ecbd.png",
     "index.html": "/serendipity/index.html",
-    "main.ed00f29b.css.map": "/serendipity/static/css/main.ed00f29b.css.map",
-    "main.e166748a.js.map": "/serendipity/static/js/main.e166748a.js.map"
+    "main.c45096fd.css.map": "/serendipity/static/css/main.c45096fd.css.map",
+    "main.b119c9bf.js.map": "/serendipity/static/js/main.b119c9bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed00f29b.css",
-    "static/js/main.e166748a.js"
+    "static/css/main.c45096fd.css",
+    "static/js/main.b119c9bf.js"
   ]
 }
