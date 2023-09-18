@@ -1,6 +1,28 @@
 #about {
   min-height: calc(100vh - 10rem);
 
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 2rem auto;
+
+    .aboutUsTitle {
+      font-size: 3.75rem;
+      margin-bottom: 1.5rem;
+    }
+    .aboutUsSubtitle {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .aboutUsDescription {
+      font-size: 1.5rem;
+    }
+  }
+
   .locations {
     width: 85%;
     margin: auto;
@@ -18,7 +40,7 @@
     }
 
     .row {
-      margin-top: 5%;
+      margin-top: 2%;
       display: flex;
       justify-content: space-between;
       .classLocation {
@@ -87,16 +109,35 @@
   @media screen and (max-width:900px) {
     .row {
       .layer h3{
-        font-size: 1.75rem;
+        font-size: 1.8rem;
       }
       .layer p{
-        font-size: 0.75rem;
+        font-size: 0.9rem;
     }
     }
   }
   @media screen and (max-width:560px) {
-    .row {
-      flex-direction: column;
+    .aboutUs{
+      width: 80%;
+      .aboutUsDescription {
+        font-size: 1.25rem;
+      }
+
+    }
+
+    .locations{
+      .locationsTitle {
+        font-size: 2.5rem;
+      }
+
+      .locationsDescription{
+        font-size: 1rem;
+      }
+      .row {
+        margin-top: 4%;
+        flex-direction: column;
+      }
+
     }
   }
 
