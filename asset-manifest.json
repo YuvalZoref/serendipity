@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/serendipity/static/css/main.806897c4.css",
-    "main.js": "/serendipity/static/js/main.fe5550e1.js",
+    "main.css": "/serendipity/static/css/main.020a108b.css",
+    "main.js": "/serendipity/static/js/main.76cbb876.js",
     "static/media/crescent.png": "/serendipity/static/media/crescent.56ffefca079e1419d426.png",
     "static/media/cloggs2.jpg": "/serendipity/static/media/cloggs2.7a18495b821bd006d4f3.jpg",
     "static/media/fullCircle.jpg": "/serendipity/static/media/fullCircle.23f081bd41c12f44eb70.jpg",
     "static/media/seren-logo.jpg": "/serendipity/static/media/seren-logo.b35894c5fbfedac3274a.jpg",
     "index.html": "/serendipity/index.html",
-    "main.806897c4.css.map": "/serendipity/static/css/main.806897c4.css.map",
-    "main.fe5550e1.js.map": "/serendipity/static/js/main.fe5550e1.js.map"
+    "main.020a108b.css.map": "/serendipity/static/css/main.020a108b.css.map",
+    "main.76cbb876.js.map": "/serendipity/static/js/main.76cbb876.js.map"
   },
   "entrypoints": [
-    "static/css/main.806897c4.css",
-    "static/js/main.fe5550e1.js"
+    "static/css/main.020a108b.css",
+    "static/js/main.76cbb876.js"
   ]
 }
