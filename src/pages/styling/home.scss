@@ -1,0 +1,45 @@
+#home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .homeItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeTitle {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+  }
+
+  .homeBtnLink{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+    border: 2px solid rgb(30, 30, 30, 0.6);
+    padding: 1rem;
+    border-radius: 8rem;
+    background: rgb(57, 101, 28, 0.5);
+
+  }
+  .homeBtnLink:hover{
+    opacity: 0.9;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:640px) {
+  #home{
+    .homeTitle {
+      font-size: 4.5rem;
+    }
+    .homeBtnLink {
+      font-size: 0.8rem;
+    }
+  }
+}

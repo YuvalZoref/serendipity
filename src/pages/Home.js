@@ -3,13 +3,13 @@ import '../pages/styling/home.scss'
 
 export default function Home() {
   return (
-    <div className='home'>
-      <h2>Home page</h2>
-      <button>
-        <Link activeClass='active' to='About'>
-          Click here to see more!
-        </Link>
-      </button>
+    <div id='home'>
+      <div className='homeItems'>
+        <h1 className='homeTitle'>Serendipity</h1>
+          <Link activeClass='active' to='About' className='homeBtnLink'>
+            Click here to see more!
+          </Link>
+      </div>
     </div>
   )
 }
