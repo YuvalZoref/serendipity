@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../components/styling/navbar.scss';
-import Logo from '../assets/navbar/seren-logo.jpg';
+import Logo from '../assets/serendipity2.png';
 import Burger from '../assets/navbar/burger.png';
 
 
