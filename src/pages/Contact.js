@@ -7,7 +7,7 @@ export default function Contact() {
     <div className='container'>
       <Navbar />
         <div id='contact'>
-          <h1 className='contactTitle'>Contact Me</h1>
+          <h1 className='contactTitle'>Contact Us</h1>
           <span className='contactDescription'>Feel free to fill out the form below if you are interested</span>
           <form className='contactForm'>
             <input type='text' className='name' placeholder='Your Name' />
