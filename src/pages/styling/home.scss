@@ -13,31 +13,18 @@
 
   .homeTitlePic {
     margin-bottom: 1.5rem;
-    height: 32rem;
+    height: 8rem;
     width: auto;
   }
-
-  .homeBtnLink{
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-decoration: none;
-    color: #9b2232;
-    font-weight: 700;
-    /* border: 2px solid #82a456;
-    padding: 0.75rem;
-    border-radius: 10rem; */
-  }
-  .homeBtnLink:hover{
-    opacity: 0.6;
-    cursor: pointer;
+  .homeTitlePic:hover {
+    opacity: 0.7;
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:860px) {
   #home{
     .homeTitlePic {
-      /* font-size: 4.5rem; */
-      height: 24rem;
+      height: 4.5rem;
       margin-bottom: 1rem;
     }
     .homeBtnLink {
