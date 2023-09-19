@@ -1,5 +1,7 @@
 #about {
   min-height: calc(100vh - 10rem);
+  display: flex;
+  flex-direction: column;
 
   .aboutUs {
     display: flex;
@@ -12,134 +14,115 @@
 
     .aboutUsTitle {
       font-size: 3.75rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
     .aboutUsSubtitle {
-      font-size: 2rem;
-      margin-bottom: 1.5rem;
+      font-size: 2.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .aboutSerenPic {
+      padding: 1rem;
+      margin-bottom: 1.25rem;
+      width: 14rem;
+      border-radius: 1.8rem;
+    }
+    .aboutTextTop{
+      font-weight: 600;
+      font-size: 1.55rem;
     }
     .aboutUsDescription {
       font-size: 1.5rem;
     }
+
   }
+  .ourStaff{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+    flex-direction: column;
+    /* width: 100%; */
+    margin: 2rem;
 
-  .locations {
-    width: 85%;
-    margin: auto;
-    text-align: center;
-    padding-top: 2rem;
-
-    .locationsTitle{
-      font-size: 2rem;
+    .staffTitle{
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
     }
 
-    .locationsDescription{
-      margin-top: 1rem;
-      font-size: 1.25rem;
-      font-weight: 600;
-    }
-
-    .row {
-      margin-top: 2%;
+    .staffImages{
       display: flex;
-      justify-content: space-between;
-      .classLocation {
-        flex-basis: 32.5%;
-        border-radius: 10px;
-        margin-bottom: 3rem;
-        position: relative;
-        overflow: hidden;
-        object-fit: cover;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 94vw;
 
-      }
-      .classLocation img {
-        width: 100%;
-        height: 100%;
-        display: block;
-      }
-    }
-
-    .layer {
-      background: transparent;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      transition: 0.5s;
-    }
-    .layer:hover {
-      background: #9090aa;
-      opacity: 0.9;
-    }
-    .layer h3{
-      width: 100%;
-      font-weight: 500;
-      margin-top: 5rem;
-      color: #FAF9F6;
-      font-size: 2rem;
-      bottom: 0.5rem;
-      left: 50%;
-      transform: translateX(-50%);
-      position: absolute;
-      opacity: 0;
-      transition: 0.5s;
-    }
-    .layer:hover h3{
-      bottom: 49%;
-      opacity: 1;
-    }
-    .layer p{
-      width: 100%;
-      font-weight: 500;
-      margin-top: 5rem;
-      color: #FAF9F6;
-      font-size: 1.25rem;
-      bottom: 0.5rem;
-      left: 50%;
-      transform: translateX(-50%);
-      position: absolute;
-      opacity: 0;
-      transition: 0.5s;
-    }
-    .layer:hover p{
-      bottom: 43%;
-      opacity: 1;
-    }
-  }
-  @media screen and (max-width:900px) {
-    .row {
-      .layer h3{
-        font-size: 1.8rem;
-      }
-      .layer p{
-        font-size: 0.9rem;
-    }
-    }
-  }
-  @media screen and (max-width:560px) {
-    .aboutUs{
-      width: 80%;
-      .aboutUsDescription {
-        font-size: 1.25rem;
-      }
-
-    }
-
-    .locations{
-      .locationsTitle {
-        font-size: 2.5rem;
-      }
-
-      .locationsDescription{
-        font-size: 1rem;
-      }
-      .row {
-        margin-top: 4%;
+      .imgItem{
+        display: flex;
         flex-direction: column;
+        text-align: center;
+
+        .staffName{
+          margin-bottom: 0.25rem;
+          font-size: 1.6rem;
+          color: #475924;
+        }
+
+        .staffJob{
+          font-size: 1.2rem;
+          font-weight: 400;
+          margin-bottom: 0.5rem;
+        }
+
+        .staffImage{
+          object-fit: cover;
+          height: 22rem;
+          width: 22rem;
+          margin: 0.5rem;
+          margin-bottom: 0.2rem;
+          border-radius: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:900px) {
+  #about {
+    .ourStaff{
+        .staffImages{
+          .imgItem{
+            .staffName{
+              font-size: 1.9rem;
+            }
+            .staffJob{
+              font-size: 1.3rem;
+            }
+            .staffImage{
+              height: 20rem;
+              width: 20rem;
+              margin: 0.3rem;
+            }
+          }
+        }
+    }
+  }
+}
+
+@media screen and (max-width:560px) {
+  #about{
+    .aboutUs{
+      .aboutTextTop{
+        font-size: 1.3rem;
+      }
+      .aboutUsDescription{
+        font-size: 1.25rem;
+        max-width: 92%;
       }
 
     }
+    .aboutSerenPic{
+      max-width: 60%;
+      padding: 0.5rem;
+    }
   }
-
 }

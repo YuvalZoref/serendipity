@@ -1,9 +1,13 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../pages/styling/about.scss'
-import Crescent from '../assets/about/crescent.png'
-import Cloggs from '../assets/about/cloggs2.jpg'
-import fullCircle from '../assets/about/fullCircle.jpg'
+import SerenPic from '../assets/about/seren-pic.jpg'
+import Sonia from '../assets/about/sonia.jpg'
+import Amanda from '../assets/about/amanda.jpg'
+import Kathy from '../assets/about/kathy.png'
+import Martyn from '../assets/about/martyn.png'
+import Mira from '../assets/about/mira.png'
+import Philip from '../assets/about/philip.jpg'
 
 export default function About() {
   return (
@@ -12,10 +16,11 @@ export default function About() {
       <div id='about'>
       <section className='aboutUs'>
         <h1 className='aboutUsTitle'>Serendipity Creative Writers</h1>
-        <h3 className='aboutUsSubtitle'>Who are we?</h3>
+        <img src={SerenPic} alt='serendipity book cover' className='aboutSerenPic' />
+        <h3 className='aboutUsSubtitle'>Who we are</h3>
         <p className='aboutUsDescription'>
-        Serendipity Creative Writers Group Charity
-        (Reg. No. 1201197)
+        <span className='aboutTextTop'>Serendipity Creative Writers Group Charity
+        (Reg. No. 1201197)</span><br/>
         Serendipity has been a founded organisation since 2018, reaching charitable status in December 2022.
         Serendipity was founded by Sonia Zoref as a result of years of struggling dealing with her own mental health journey and finally finding the cathartic and therapeutic outcomes of working through various mediums of the Arts, in particular, Creative Writing and Mindfulness.
         Serendipity Creative Writing and Mindful Workshops are held across Kirklees and the broader West Yorkshire area. They are two-hour workshops that are leader & service user led, are FREE and include free refreshments including CAKE. We operate an open-door policy and also receive referrals from the NHS and other Organisations.
@@ -27,36 +32,41 @@ export default function About() {
         Serendipity work with school term times, but we hold Natter Groups during the school holiday (these are free sessions but a pay-for-your-own refreshments meeting)
         </p>
       </section>
-
-      <section className='locations'>
-        <h1 className='locationsTitle'>Our classes</h1>
-        <p className='locationsDescription'>Check out our weekly classes and where we hold them</p>
-
-        <div className="row">
-          <div className="classLocation">
-            <img src={Crescent} alt='crescent'/>
-            <div className="layer">
-              <h3>The Crescent</h3>
-              <p>Tuesday in Batley 2PM – 4PM</p>
-            </div>
+      <section className='ourStaff'>
+        <h1 className='staffTitle'>Our Staff</h1>
+        <div className="staffImages">
+          <div className='imgItem'>
+            <img src={Sonia} alt='Sonia' className="staffImage" />
+            <h2 className='staffName'>Sonia Zoref</h2>
+            <h2 className='staffJob'>Founder/Facilitator/Administrator</h2>
           </div>
-          <div className="classLocation">
-            <img src={Cloggs} alt='cloggs'/>
-            <div className="layer">
-              <h3>Cloggs Cafe</h3>
-              <p>Weds in Dewsbury 2:30PM – 4:30PM</p>
-            </div>
+          <div className='imgItem'>
+            <img src={Amanda} alt='Amanda' className="staffImage" />
+            <h2 className='staffName'>Amanda Rhodes</h2>
+            <h2 className='staffJob'>Secretary/Trustee</h2>
           </div>
-          <div className="classLocation">
-            <img src={fullCircle} alt='fullCircle'/>
-            <div className="layer">
-              <h3>Full circle Cafe</h3>
-              <p>Friday in Huddersfield 2PM – 4PM</p>
-            </div>
+          <div className='imgItem'>
+            <img src={Kathy} alt='Kathy' className="staffImage" />
+            <h2 className='staffName'>Kathy Trout</h2>
+            <h2 className='staffJob'>Chairperson/Trustee</h2>
+          </div>
+          <div className='imgItem'>
+            <img src={Martyn} alt='Martyn' className="staffImage" />
+            <h2 className='staffName'>Martyn Haymonds</h2>
+            <h2 className='staffJob'>Volunteer</h2>
+          </div>
+          <div className='imgItem'>
+            <img src={Mira} alt='Mira' className="staffImage" />
+            <h2 className='staffName'>Mira Fadel</h2>
+            <h2 className='staffJob'>Trustee</h2>
+          </div>
+          <div className='imgItem'>
+            <img src={Philip} alt='Philip' className="staffImage" />
+            <h2 className='staffName'>Philip Walton</h2>
+            <h2 className='staffJob'>Volunteer</h2>
           </div>
         </div>
       </section>
-
       </div>
       <Footer />
     </div>
