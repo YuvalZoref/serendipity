@@ -37,12 +37,10 @@
   }
   .ourStaff{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    /* text-align: center; */
     flex-direction: column;
-    /* width: 100%; */
-    margin: 2rem;
+    margin: 2rem 0;
+    /* background: #9090aa; */
 
     .staffTitle{
       font-size: 2.5rem;
@@ -58,9 +56,13 @@
 
       .imgItem{
         display: flex;
+        /* flex-direction: column; */
         text-align: center;
         justify-content: center;
-        margin-top: 1rem;
+        margin: 1rem 2rem;
+        /* background: #eae9e8; */
+        border-radius: 1rem;
+        padding: 1.25rem;
 
         .staffName{
           margin: 0.25rem 0;
@@ -84,6 +86,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
+
         }
 
         .staffImage{
