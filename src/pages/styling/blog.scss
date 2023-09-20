@@ -1,5 +1,7 @@
 #blog {
   min-height: calc(100vh - 10rem);
+  display: flex;
+  flex-direction: column;
 
   .locations {
     width: 85%;
@@ -82,6 +84,35 @@
       opacity: 1;
     }
   }
+  .funders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+
+    .fundersTitle{
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+      text-align: center;
+    }
+
+    .fundersList{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      margin: 1rem 2rem;
+
+      .fundersListItem{
+        font-size: 1.25rem;
+        margin: 0.3rem;
+        border-right: 2px solid #6c8832;
+        padding-right: 0.3rem;
+        font-weight: 500;
+      }
+    }
+  }
   @media screen and (max-width:900px) {
     .row {
       .layer h3{
@@ -107,7 +138,18 @@
         margin-top: 4%;
         flex-direction: column;
       }
-
+    }
+    .funders{
+      margin: 0.25rem 0.75rem;
+      .fundersTitle{
+        font-size: 2.25rem;
+        margin: 0 0.75rem;
+      }
+      .fundersList{
+        .fundersListItem{
+          font-size: 0.75rem;
+        }
+      }
     }
   }
 

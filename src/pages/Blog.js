@@ -13,7 +13,6 @@ export default function Blog() {
         <section className='locations'>
         <h1 className='locationsTitle'>Our classes</h1>
         <p className='locationsDescription'>Check out our weekly classes and where we hold them</p>
-
         <div className="row">
           <div className="classLocation">
             <img src={Crescent} alt='crescent'/>
@@ -38,6 +37,39 @@ export default function Blog() {
           </div>
         </div>
       </section>
+      <section className='funders'>
+        <h1 className='fundersTitle'>Funders & Partnerships</h1>
+          <ul className='fundersList'>
+            <li className='fundersListItem'>Community Plus</li>
+            <li className='fundersListItem'>One Community</li>
+            <li className='fundersListItem'>The National Lottery</li>
+            <li className='fundersListItem'>Arnold Clark</li>
+            <li className='fundersListItem'>The Jimmy Dickinson Foundation</li>
+            <li className='fundersListItem'>The Mayors Safer Communities</li>
+            <li className='fundersListItem'>The Cheshire Community Foundation</li>
+            <li className='fundersListItem'>Locala</li>
+            <li className='fundersListItem'>Magic Little Grants</li>
+            <li className='fundersListItem'>Comic Relief</li>
+            <li className='fundersListItem'>The West Yorkshire Health & Care Partnership</li>
+            <li className='fundersListItem'>The Jo Cox Foundation</li>
+            <li className='fundersListItem'>The Full Circle Café, Huddersfield</li>
+            <li className='fundersListItem'>Hive Community Café, Huddersfield</li>
+            <li className='fundersListItem'>The Crescent CIC, Batley</li>
+            <li className='fundersListItem'>Cloggs Community Café, Dewsbury</li>
+            <li className='fundersListItem'>Ability Options</li>
+            <li className='fundersListItem'>Huddersfield Literature Festival</li>
+            <li className='fundersListItem'>The University of Huddersfield</li>
+            <li className='fundersListItem'>Marsden Poets</li>
+            <li className='fundersListItem'>Batley Poets</li>
+            <li className='fundersListItem'>The Albert Poets</li>
+            <li className='fundersListItem'>Kirklees Council</li>
+            <li className='fundersListItem'>Kirklees Libraries</li>
+            <li className='fundersListItem'>St. John Ambulance</li>
+            <li className='fundersListItem'>NHS</li>
+            <li className='fundersListItem'>Folly Hall Mental Health Services, Huddersfield</li>
+            <li className='fundersListItem'>Platform 1</li>
+          </ul>
+        </section>
         </div>
       <Footer />
     </div>
