@@ -37,33 +37,88 @@ export default function About() {
         <div className="staffImages">
           <div className='imgItem'>
             <img src={Sonia} alt='Sonia' className="staffImage" />
-            <h2 className='staffName'>Sonia Zoref</h2>
-            <h2 className='staffJob'>Founder/Facilitator/Administrator</h2>
+            <div className='imgItemSection'>
+              <h2 className='staffName'>Sonia Zoref</h2>
+              <h2 className='staffJob'>Founder/Facilitator/Administrator</h2>
+              <p className='staffDescription'>
+                Sonia has an English Literature with Creative Writing Degree that she gained as a mature student,
+                holding down a part time job and raising 3 children. Sonia has facilitated creative writing workshops with Serendipity for almost 5 years.
+                Prior to that she delivered community creative writing workshops within educational settings; schools and colleges.
+                Sonia has training in counselling and has worked with mental health organisations as a freelance writer.
+                Sonia was commissioned to publish a collection of her poems relating to mental health and was the feature poet in the University of Huddersfield’s anthology. Sonia embraces all Art forms.
+                She is currently working on her 2nd poetry collection and also working on a novel.
+              </p>
+            </div>
           </div>
           <div className='imgItem'>
             <img src={Amanda} alt='Amanda' className="staffImage" />
-            <h2 className='staffName'>Amanda Rhodes</h2>
-            <h2 className='staffJob'>Secretary/Trustee</h2>
+            <div className='imgItemSection'>
+              <h2 className='staffName'>Amanda Rhodes</h2>
+              <h2 className='staffJob'>Secretary/Trustee</h2>
+              <p className='staffDescription'>
+                Amanda has been a Care Support Worker for the Mid Yorkshire Care Trust,
+                a charitable organisation. This involves complex work such as administration of medication including buckle Midazolam and suction,
+                working with babies to the elderly.
+                Her work also includes giving respite to unpaid carers in order for them to be able to take a break.
+                She has 3 grown up children and 6 grandchildren which keep her very busy. She also enjoys gardening and social family occasions.
+              </p>
+            </div>
           </div>
           <div className='imgItem'>
             <img src={Kathy} alt='Kathy' className="staffImage" />
-            <h2 className='staffName'>Kathy Trout</h2>
-            <h2 className='staffJob'>Chairperson/Trustee</h2>
+            <div className='imgItemSection'>
+              <h2 className='staffName'>Kathy Trout</h2>
+              <h2 className='staffJob'>Chairperson/Trustee</h2>
+              <p className='staffDescription'>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dolore mollitia consequuntur exercitationem ullam fugiat aspernatur id,
+                voluptatibus aliquam assumenda illum harum impedit consequatur omnis ipsam laborum, adipisci error,
+                temporibus praesentium!
+              </p>
+            </div>
           </div>
           <div className='imgItem'>
             <img src={Martyn} alt='Martyn' className="staffImage" />
-            <h2 className='staffName'>Martyn Haymonds</h2>
-            <h2 className='staffJob'>Volunteer</h2>
+            <div className='imgItemSection'>
+              <h2 className='staffName'>Martyn Haymonds</h2>
+              <h2 className='staffJob'>Volunteer</h2>
+              <p className='staffDescription'>
+                Martyn is a proud volunteer with Serendipity. Martyn joined Serendipity a few years ago as a service
+                user and it changed his life so much that he wanted to be more hands-on and now is actively
+                engaged in all areas from facilitating workshops to giving talks to corporations and
+                organisations about the work we do, and the difference we make.
+                Martyn’s background history in social work brings much to our organisation, but more than that he
+                brings much of himself that is caring and compassionate, supporting and nurturing to our group
+                members, and in return is supported and nurtured too.
+              </p>
+            </div>
           </div>
           <div className='imgItem'>
             <img src={Mira} alt='Mira' className="staffImage" />
-            <h2 className='staffName'>Mira Fadel</h2>
-            <h2 className='staffJob'>Trustee</h2>
+            <div className='imgItemSection'>
+              <h2 className='staffName'>Mira Fadel</h2>
+              <h2 className='staffJob'>Trustee</h2>
+              <p className='staffDescription'>
+                Mira is an ambitious and well-educated British woman who was born in Baghdad,
+                and brought up in the very cosmopolitan city Dubai.
+                She received her higher education in the UK and has worked as an IT specialist for over two decades.
+                Mira is a Publisher, Freelance Teacher, Translator and Community Café owner. Her spare time is spent reading,
+                translation and developing computer applications.
+              </p>
+            </div>
           </div>
           <div className='imgItem'>
             <img src={Philip} alt='Philip' className="staffImage" />
-            <h2 className='staffName'>Philip Walton</h2>
-            <h2 className='staffJob'>Volunteer</h2>
+            <div className='imgItemSection'>
+              <h2 className='staffName'>Philip Walton</h2>
+              <h2 className='staffJob'>Volunteer</h2>
+              <p className='staffDescription'>
+                Philip is an avid reader and has just completed his own novel. He loves football, American football
+                and music. He plays the guitar, paints miniatures and likes to play on his Xbox, but what he enjoys
+                most is meeting up with friends and participating in and facilitating creative and mindful writing
+                workshops.
+              </p>
+            </div>
           </div>
         </div>
       </section>

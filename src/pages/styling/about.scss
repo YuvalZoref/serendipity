@@ -54,29 +54,42 @@
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
-      width: 94vw;
+      width: 90vw;
 
       .imgItem{
         display: flex;
-        flex-direction: column;
         text-align: center;
+        justify-content: center;
+        margin-top: 1rem;
 
         .staffName{
-          margin-bottom: 0.25rem;
+          margin: 0.25rem 0;
           font-size: 1.6rem;
           color: #475924;
         }
 
         .staffJob{
           font-size: 1.2rem;
-          font-weight: 400;
+          font-weight: 500;
           margin-bottom: 0.5rem;
+        }
+
+         .staffDescription{
+          font-size: 1rem;
+          max-width: 22rem;
+          margin-left: 1.5rem;
+        }
+        .imgItemSection{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         }
 
         .staffImage{
           object-fit: cover;
-          height: 22rem;
-          width: 22rem;
+          height: 20rem;
+          width: 20rem;
           margin: 0.5rem;
           margin-bottom: 0.2rem;
           border-radius: 0.8rem;
@@ -86,21 +99,33 @@
   }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:640px) {
   #about {
     .ourStaff{
         .staffImages{
           .imgItem{
-            .staffName{
-              font-size: 1.9rem;
-            }
-            .staffJob{
-              font-size: 1.3rem;
-            }
+            flex-direction: column;
+            align-items: center;
+
             .staffImage{
-              height: 20rem;
-              width: 20rem;
+              height: 22rem;
+              width: 22rem;
               margin: 0.3rem;
+            }
+            .imgItemSection{
+              margin-bottom: 1rem;
+              .staffName{
+                font-size: 1.8rem;
+              }
+              .staffJob{
+                font-size: 1.3rem;
+              }
+              .staffDescription{
+                font-size: 0.8rem;
+                max-width: 22rem;
+                margin-left: 0;
+
+              }
             }
           }
         }
