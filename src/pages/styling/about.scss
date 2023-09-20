@@ -109,16 +109,20 @@
           .imgItem{
             flex-direction: column;
             align-items: center;
+            margin-bottom: 0;
 
             .staffImage{
               height: 22rem;
               width: 22rem;
               margin: 0.3rem;
+              margin-top: 0;
+
             }
             .imgItemSection{
-              margin-bottom: 1rem;
+              /* margin-bottom: 0; */
               .staffName{
                 font-size: 1.8rem;
+                padding-top: 0.75rem;
               }
               .staffJob{
                 font-size: 1.3rem;
