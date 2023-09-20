@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/serendipity/static/css/main.bb19bd48.css",
-    "main.js": "/serendipity/static/js/main.73623c80.js",
+    "main.css": "/serendipity/static/css/main.07fe12e3.css",
+    "main.js": "/serendipity/static/js/main.c3bdc36d.js",
     "static/media/crescent.png": "/serendipity/static/media/crescent.56ffefca079e1419d426.png",
     "static/media/kathy.png": "/serendipity/static/media/kathy.d24ad7f517b2b1ef1448.png",
     "static/media/butterfly.png": "/serendipity/static/media/butterfly.3bb94ecae0a2321fd19e.png",
     "static/media/mira.png": "/serendipity/static/media/mira.20de888c39e8c0a8fe3f.png",
     "static/media/martyn.png": "/serendipity/static/media/martyn.0351268da1aef5f987ba.png",
     "static/media/cloggs2.jpg": "/serendipity/static/media/cloggs2.7a18495b821bd006d4f3.jpg",
+    "static/media/certificate3.jpg": "/serendipity/static/media/certificate3.75692bf7e5110a95d82a.jpg",
+    "static/media/certificate1.jpg": "/serendipity/static/media/certificate1.703875467f131db97a3f.jpg",
     "static/media/fullCircle.jpg": "/serendipity/static/media/fullCircle.23f081bd41c12f44eb70.jpg",
+    "static/media/certificate2.jpg": "/serendipity/static/media/certificate2.d9cee110591fc22d997b.jpg",
     "static/media/sonia.jpg": "/serendipity/static/media/sonia.b538630b50bf81cbb045.jpg",
     "static/media/amanda.jpg": "/serendipity/static/media/amanda.593623c9e7e115648d55.jpg",
     "static/media/philip.jpg": "/serendipity/static/media/philip.61fe03103608a81b7621.jpg",
     "static/media/serendipity2.png": "/serendipity/static/media/serendipity2.ee3b71262b5be447ecbd.png",
     "static/media/seren-pic.jpg": "/serendipity/static/media/seren-pic.b35894c5fbfedac3274a.jpg",
     "index.html": "/serendipity/index.html",
-    "main.bb19bd48.css.map": "/serendipity/static/css/main.bb19bd48.css.map",
-    "main.73623c80.js.map": "/serendipity/static/js/main.73623c80.js.map"
+    "main.07fe12e3.css.map": "/serendipity/static/css/main.07fe12e3.css.map",
+    "main.c3bdc36d.js.map": "/serendipity/static/js/main.c3bdc36d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb19bd48.css",
-    "static/js/main.73623c80.js"
+    "static/css/main.07fe12e3.css",
+    "static/js/main.c3bdc36d.js"
   ]
 }
