@@ -4,9 +4,9 @@ import '../pages/styling/blog.scss'
 import Crescent from '../assets/blog/crescent.png'
 import Cloggs from '../assets/blog/cloggs2.jpg'
 import fullCircle from '../assets/blog/fullCircle.jpg'
-import certificate1 from '../assets/blog/certificate1.jpg'
-import certificate2 from '../assets/blog/certificate2.jpg'
-import certificate3 from '../assets/blog/certificate3.jpg'
+import Carousel from '../components/Carousel'
+import slides from "../data/carouselData.json"
+
 
 export default function Blog() {
   return (
@@ -73,19 +73,9 @@ export default function Blog() {
             <li className='fundersListItem'>Platform 1</li>
           </ul>
         </section>
-        <section className='certificates'>
-        <div className="certificatesRow">
-          <div className="certificate">
-            <img src={certificate1} alt='certificate'/>
-          </div>
-          <div className="certificate">
-            <img src={certificate2} alt='certificate'/>
-          </div>
-          <div className="certificate">
-            <img src={certificate3} alt='certificate'/>
-          </div>
-        </div>
-      </section>
+        <section className='celebs'>
+          <Carousel data={slides} />
+        </section>
         </div>
       <Footer />
     </div>

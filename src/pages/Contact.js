@@ -13,7 +13,7 @@ export default function Contact() {
       .then((result) => {
           console.log(result.text);
           e.target.reset();
-          alert('Email Sent !');
+          alert('Thanks for submitting your message!');
       }, (error) => {
           console.log(error.text);
       });

@@ -94,7 +94,7 @@
 
     .fundersTitle{
       font-size: 2rem;
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.5rem;
       text-align: center;
     }
 
@@ -111,40 +111,6 @@
         border-right: 2px solid #6c8832;
         padding-right: 0.3rem;
         font-weight: 500;
-      }
-    }
-  }
-
-  .certificates {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-basis: 32.5%;
-    border-radius: 10px;
-    margin: 2rem 1rem;
-    position: relative;
-    overflow: hidden;
-
-    .certificatesRow{
-      margin-top: 2%;
-      display: flex;
-      justify-content: space-evenly;
-
-      .certificate{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .certificate img{
-        background: #9090aa;
-        width: 70%;
-        height: 90%;
-        /* display: block; */
-        object-fit: cover;
-        margin: 0.2rem;
-        padding: 0.25rem;
-        border-radius: 1rem;
       }
     }
   }
