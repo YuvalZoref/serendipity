@@ -126,7 +126,7 @@
     overflow: hidden;
 
     .certificatesRow{
-      margin-top: 3%;
+      margin-top: 2%;
       display: flex;
       justify-content: space-evenly;
 
@@ -138,11 +138,11 @@
 
       .certificate img{
         background: #9090aa;
-        width: 75%;
-        height: 100%;
+        width: 70%;
+        height: 90%;
         /* display: block; */
-        object-fit: fill;
-        margin: 0.3rem;
+        object-fit: cover;
+        margin: 0.2rem;
         padding: 0.25rem;
         border-radius: 1rem;
       }
