@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './styling/carousel.scss';
 import {BsArrowLeftCircleFill, BsArrowRightCircleFill} from 'react-icons/bs'
+// import { slides } from '../data/carouselData'
 
 const Carousel = ({ data }) => {
   const [slide, setSlide] = useState(0);
