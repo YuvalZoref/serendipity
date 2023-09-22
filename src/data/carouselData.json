@@ -1,7 +1,7 @@
 {
-  "slides": [
+    "slides": [
     {
-      "src": "../assets/blog/celebs/billy.jpg",
+      "src": "/src/assets/blog/celebs/billy.jpg",
       "alt": "image 1 for carousel"
     },
     {

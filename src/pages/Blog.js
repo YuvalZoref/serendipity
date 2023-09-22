@@ -5,7 +5,7 @@ import Crescent from '../assets/blog/crescent.png'
 import Cloggs from '../assets/blog/cloggs2.jpg'
 import fullCircle from '../assets/blog/fullCircle.jpg'
 import Carousel from '../components/Carousel'
-import slides from "../data/carouselData.json"
+import slides from "../data/carouselData"
 
 
 export default function Blog() {

@@ -114,6 +114,14 @@
       }
     }
   }
+  .celebs{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 2rem; */
+  }
 
 
   @media screen and (max-width:900px) {
@@ -126,6 +134,9 @@
         font-size: 0.8rem;
         margin-top: 0.25rem;
     }
+    }
+    .celebs{
+      margin: 0 0.5rem;
     }
   }
   @media screen and (max-width:560px) {
