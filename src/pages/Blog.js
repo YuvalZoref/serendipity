@@ -40,6 +40,10 @@ export default function Blog() {
           </div>
         </div>
       </section>
+      <section className='celebs'>
+        <h1 className='celebsTitle'>People we've met</h1>
+        <Carousel data={slides} />
+      </section>
       <section className='funders'>
         <h1 className='fundersTitle'>Funders & Partnerships</h1>
           <ul className='fundersList'>
@@ -72,9 +76,6 @@ export default function Blog() {
             <li className='fundersListItem'>Folly Hall Mental Health Services, Huddersfield</li>
             <li className='fundersListItem'>Platform 1</li>
           </ul>
-        </section>
-        <section className='celebs'>
-          <Carousel data={slides} />
         </section>
         </div>
       <Footer />
