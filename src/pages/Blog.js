@@ -6,6 +6,8 @@ import Cloggs from '../assets/blog/cloggs2.jpg'
 import fullCircle from '../assets/blog/fullCircle.jpg'
 import Carousel from '../components/Carousel'
 import slides from "../data/carouselData"
+import certificate2 from '../assets/blog/certificate2.jpg'
+import certificate3 from '../assets/blog/certificate3.jpg'
 
 
 export default function Blog() {
@@ -42,7 +44,11 @@ export default function Blog() {
       </section>
       <section className='celebs'>
         <h1 className='celebsTitle'>People we've met</h1>
-        <Carousel data={slides} />
+        <div className='celebspics'>
+          <img className='certificate' src={certificate2} alt='certificate'/>
+          <Carousel data={slides} />
+          <img className='certificate' src={certificate3} alt='certificate'/>
+        </div>
       </section>
       <section className='funders'>
         <h1 className='fundersTitle'>Funders & Partnerships</h1>
