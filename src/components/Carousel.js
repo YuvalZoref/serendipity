@@ -1,39 +1,41 @@
 import React, { useState } from 'react';
 import './styling/carousel.scss';
 import {BsArrowLeftCircleFill, BsArrowRightCircleFill} from 'react-icons/bs'
-// import { slides } from '../data/carouselData'
+import imageData from '../data/carouselData.json'
 
 const Carousel = ({ data }) => {
   const [slide, setSlide] = useState(0);
 
   const nextSlide = () => {
-    setSlide(slide === data.slides.length -1 ? 0 : slide + 1);
+    setSlide(slide === data.slides.length - 1 ? 0 : slide + 1);
   }
 
   const prevSlide = () => {
     setSlide(slide === 0 ? data.slides.length - 1 : slide - 1);
   }
 
+  const slideImages = imageData.slides;
+
   return (
     <div className='carousel'>
     <BsArrowLeftCircleFill className='arrow arrow-left' onClick={prevSlide} />
-    {data.slides.map((item, idx) => {
+    {slideImages.map((img, index) => {
       return (
         <img
-          src={item.src}
-          alt={item.alt}
-          key={idx}
-          className={slide === idx ? 'slide' : 'slide-hidden'} />
+          src={process.env.PUBLIC_URL + img.src}
+          alt={img.alt}
+          key={index}
+          className={slide === index ? 'slide' : 'slide-hidden'} />
         );
     })}
     <BsArrowRightCircleFill className='arrow arrow-right' onClick={nextSlide} />
     <span className='indicators'>
-      {data.slides.map((_, idx) => {
+      {slideImages.map((_, index) => {
         return (
           <button
-            key={idx}
-            onClick={() => setSlide(idx)}
-            className={slide === idx ? 'indicator' : 'indicator-inactive'}>
+            key={index}
+            onClick={() => setSlide(index)}
+            className={slide === index ? 'indicator' : 'indicator-inactive'}>
           </button>
         );
       })}

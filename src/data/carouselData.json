@@ -1,31 +1,31 @@
 {
      "slides": [
     {
-      "src": "../assets/blog/celebs/billy.jpg",
+      "src": "/images/celebs/billy.jpg",
       "alt": "image 1"
     },
     {
-      "src": "../assets/blog/celebs/jason.jpg",
+      "src": "/images/celebs/jason.jpg",
       "alt": "image 2"
     },
     {
-      "src": "../assets/blog/celebs/kimLeadbeater.jpg",
+      "src": "/images/celebs/kimLeadbeater.jpg",
       "alt": "image 3"
     },
     {
-      "src": "../assets/blog/celebs/max.jpg",
+      "src": "/images/celebs/max.jpg",
       "alt": "image 4"
     },
     {
-      "src": "../assets/blog/celebs/rubyWax.jpg",
+      "src": "/images/celebs/rubyWax.jpg",
       "alt": "image 5"
     },
     {
-      "src": "../assets/blog/celebs/russellBrand.jpg",
+      "src": "/images/celebs/russellBrand.jpg",
       "alt": "image 6"
     },
     {
-      "src": "../assets/blog/celebs/tracy.jpg",
+      "src": "/images/celebs/tracy.jpg",
       "alt": "image 7"
     }
   ]
