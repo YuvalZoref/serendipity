@@ -5,10 +5,9 @@ import Seren from '../assets/home/serendipity2.png'
 export default function Home() {
   return (
     <div id='home'>
-      <div className='homeItems'>
-          <Link activeClass='active' to='About' className='homeBtnLink'>
+      <Link activeClass='active' to='About' className='homeBtnLink'>
+        <div className='homeItems'>
           <img src={Seren} alt='' className='homeTitlePic'/>
-          </Link>
           <p className='homePoem'>
             " There are many stories<br />
             Hidden in the branches<br />
@@ -16,7 +15,8 @@ export default function Home() {
             And only the trees<br />
             Were listening "
           </p>
-      </div>
+        </div>
+      </Link>
     </div>
   )
 }
