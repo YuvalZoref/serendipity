@@ -1,22 +1,25 @@
 import { Link } from 'react-router-dom';
 import '../pages/styling/home.scss'
-import Seren from '../assets/home/serendipity2.png'
+import serenPic from '../assets/about/seren-pic.jpg'
 
 export default function Home() {
   return (
     <div id='home'>
-      <Link activeClass='active' to='About' className='homeBtnLink'>
-        <div className='homeItems'>
-          <img src={Seren} alt='' className='homeTitlePic'/>
+        <div className='homeItemsLeft'>
           <p className='homePoem'>
-            " There are many stories<br />
+            " There are many stories
             Hidden in the branches<br />
-            From those who cried out<br />
+            From those who cried out
             And only the trees<br />
             Were listening "
           </p>
-        </div>
+      <Link activeClass='active' to='About' className='homeBtnLink'>
+        Click here to see more
       </Link>
+        </div>
+        <div className='homeItemsRight'>
+          <img src={serenPic} alt='serenPic' className='landingPic' />
+        </div>
     </div>
   )
 }
