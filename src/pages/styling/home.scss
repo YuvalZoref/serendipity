@@ -1,40 +1,61 @@
 #home {
-  height: 100vh;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  /* height: 100vh; */
+  .homeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 
   .homeItemsLeft{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 1rem;
+    align-items: flex-start;
+    padding: 2rem;
+    width: 55%;
+  }
+  .homeText{
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+  .homeTitle{
+    margin-top: 2rem;
+    font-size: 3rem;
+    /* text-align: center; */
   }
 
   .homePoem {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    color: #a9aaca;
-    margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   .homeBtnLink{
     margin: 2rem;
+    margin-left: 0;
     padding: 1rem;
-    border: 1px solid #a9aaca;
-    border-radius: 2rem;
+    background: #7c7b7b;
+    border-radius: 0.7rem;
     font-weight: 700;
+    color: #FAF9F6;
   }
   .homeBtnLink:hover{
     opacity: 0.7;
+    transition: 0.3s ease-in;
   }
 
   .homeItemsRight{
     padding: 1rem;
+    margin: 2rem;
+    margin-left: 0;
+    display: flex;
+    align-items: flex-start;
     .landingPic{
       border-radius: 0.75rem;
       box-shadow: 0px 0px 7px #666;
@@ -45,11 +66,33 @@
 
 @media screen and (max-width:860px) {
   #home{
-    flex-direction: column;
-    justify-content: center;
+
+    .homeContainer{
+      height: auto;
+      flex-direction: column;
+      padding: 2rem 0;
+    }
+    .homeItemsLeft{
+      width: 80%;
+      align-items: center;
+    }
+    .homeText{
+      font-size: 1.4rem;
+    }
+    .homeTitle{
+      margin-top: 1rem;
+      font-size: 1.8rem;
+      text-align: center;
+    }
     .homePoem {
-      font-size: 1.5rem;
-      margin-left: 0;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+    .homeBtnLink{
+      margin-bottom: 0;
+    }
+    .homeItemsRight{
+      margin-top: 0;
     }
   }
 }
