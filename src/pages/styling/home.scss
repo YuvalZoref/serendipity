@@ -68,7 +68,7 @@
   #home{
 
     .homeContainer{
-      height: auto;
+      height: 100vh;
       flex-direction: column;
       padding: 2rem 0;
     }
@@ -90,9 +90,15 @@
     }
     .homeBtnLink{
       margin-bottom: 0;
+      margin-left: 2rem;
+      font-size: 0.5rem;
     }
     .homeItemsRight{
       margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 2rem;
+      padding: 0;
+      padding-bottom: 1rem;
     }
   }
 }
