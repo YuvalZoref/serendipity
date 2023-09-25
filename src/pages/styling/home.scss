@@ -1,49 +1,51 @@
 #home {
   /* height: 100vh; */
-  .homeContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  background: #effafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 
   .homeItemsLeft{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 1rem 2rem;
     width: 55%;
   }
   .homeText{
-    font-size: 1.75rem;
-    font-style: italic;
-    font-weight: 700;
+    font-size: 2.75rem;
+    /* font-style: italic; */
+    font-weight: 900;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    color: #4291b0;
+
+    .homeTextWord{
+      color: #fc6c6b;
+      font-size: 3.75rem;
+    }
   }
   .homeTitle{
-    margin-top: 2rem;
-    font-size: 3rem;
-    /* text-align: center; */
+    margin-top: 1.5rem;
+    font-size: 3.75rem;
+    color: #feb848;
+
   }
 
-  .homePoem {
-    font-size: 1.7rem;
-    font-style: italic;
-    font-weight: 600;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    margin-top: 2rem;
-  }
   .homeBtnLink{
     margin: 2rem;
     margin-left: 0;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
-    background: #7c7b7b;
     border-radius: 0.7rem;
-    font-weight: 700;
-    color: #FAF9F6;
+    background: #41ae99;
+    /* border: 1px solid rgb(30, 30, 30); */
+    .btnText{
+      font-weight: 700;
+      font-size: 1rem;
+      color: #effafc;
+    }
   }
   .homeBtnLink:hover{
     opacity: 0.7;
@@ -57,8 +59,8 @@
     display: flex;
     align-items: flex-start;
     .landingPic{
-      border-radius: 0.75rem;
-      box-shadow: 0px 0px 7px #666;
+      width: 30rem;
+      height: 40rem;
     }
   }
 }
@@ -66,32 +68,31 @@
 
 @media screen and (max-width:860px) {
   #home{
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
 
-    .homeContainer{
-      height: 100vh;
-      flex-direction: column;
-      padding: 2rem 0;
-    }
     .homeItemsLeft{
-      width: 80%;
+      width: 90%;
       align-items: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
     }
     .homeText{
-      font-size: 1.4rem;
+      font-size: 3rem;
+      font-style: italic;
+      margin-top: 3rem;
+      font-weight: 900;
     }
     .homeTitle{
       margin-top: 1rem;
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       text-align: center;
-    }
-    .homePoem {
-      font-size: 1rem;
-      margin-top: 1rem;
     }
     .homeBtnLink{
       margin-bottom: 0;
-      margin-left: 2rem;
-      font-size: 0.5rem;
+      margin-left: 1rem;
+      font-size: 0.75rem;
     }
     .homeItemsRight{
       margin-top: 0;
@@ -99,6 +100,10 @@
       margin-left: 2rem;
       padding: 0;
       padding-bottom: 1rem;
+      .landingPic{
+        width: 20rem;
+        height: 25rem;
+      }
     }
   }
 }
