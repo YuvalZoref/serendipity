@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/serendipity/static/css/main.6fabf1fa.css",
-    "main.js": "/serendipity/static/js/main.4af59396.js",
-    "static/media/books.jpg": "/serendipity/static/media/books.5d26ee66dbdb741eae96.jpg",
+    "main.css": "/serendipity/static/css/main.a22367c1.css",
+    "main.js": "/serendipity/static/js/main.2ce7bce8.js",
+    "static/media/books2.png": "/serendipity/static/media/books2.33cedd0882cb933ba996.png",
     "static/media/crescent.png": "/serendipity/static/media/crescent.56ffefca079e1419d426.png",
     "static/media/kathy.png": "/serendipity/static/media/kathy.d24ad7f517b2b1ef1448.png",
-    "static/media/butterfly.png": "/serendipity/static/media/butterfly.3bb94ecae0a2321fd19e.png",
     "static/media/mira.png": "/serendipity/static/media/mira.20de888c39e8c0a8fe3f.png",
     "static/media/martyn.png": "/serendipity/static/media/martyn.0351268da1aef5f987ba.png",
     "static/media/cloggs2.jpg": "/serendipity/static/media/cloggs2.7a18495b821bd006d4f3.jpg",
@@ -16,12 +15,13 @@
     "static/media/amanda.jpg": "/serendipity/static/media/amanda.593623c9e7e115648d55.jpg",
     "static/media/philip.jpg": "/serendipity/static/media/philip.61fe03103608a81b7621.jpg",
     "static/media/seren-pic.jpg": "/serendipity/static/media/seren-pic.b35894c5fbfedac3274a.jpg",
+    "static/media/logo.png": "/serendipity/static/media/logo.faeb7ee48b13cf74b6d4.png",
     "index.html": "/serendipity/index.html",
-    "main.6fabf1fa.css.map": "/serendipity/static/css/main.6fabf1fa.css.map",
-    "main.4af59396.js.map": "/serendipity/static/js/main.4af59396.js.map"
+    "main.a22367c1.css.map": "/serendipity/static/css/main.a22367c1.css.map",
+    "main.2ce7bce8.js.map": "/serendipity/static/js/main.2ce7bce8.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fabf1fa.css",
-    "static/js/main.4af59396.js"
+    "static/css/main.a22367c1.css",
+    "static/js/main.2ce7bce8.js"
   ]
 }
