@@ -17,13 +17,14 @@
       margin-bottom: 1rem;
       color: #41ae99;
       font-size: 6rem;
-      font-family: 'Dancing Script', cursive;
+      /* font-family: 'Dancing Script', cursive; */
       }
     .aboutUsSubtitle {
       font-size: 3rem;
       margin-bottom: 1.25rem;
       /* color: #4291b0; */
       color: #fc6c6b;
+      font-family: 'Dancing Script', cursive;
     }
     .aboutSerenPic {
       padding: 1rem;
@@ -52,6 +53,7 @@
       font-size: 3rem;
       margin-bottom: 1rem;
       color: #fc6c6b;
+      font-family: 'Dancing Script', cursive;
     }
 
     .staffImages{
@@ -71,7 +73,7 @@
         .staffName{
           margin: 0.25rem 0;
           font-size: 1.6rem;
-          color: #41ae99;
+          color: #feb848;
         }
 
         .staffJob{
