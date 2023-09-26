@@ -26,11 +26,6 @@ export default function Contact() {
       <Navbar />
         <div id='contact'>
           <h1 className='contactTitle'>Contact Us</h1>
-          <section className="socialLinks">
-            <a href="https://www.facebook.com/serendipitycreativewriters/" rel="noreferrer" target="blank"><img src={facebookIcon} alt="facebook" className="link" /></a>
-            <a href="/" rel="noreferrer" target="blank"><img src={linkedInIcon} alt="linkedIn" className="link" /></a>
-            <a href="/" rel="noreferrer" target="blank"><img src={instagramIcon} alt="instagram" className="link" /></a>
-          </section>
           <span className='contactDescription'>Feel free to fill out the form below if you are interested</span>
           <form className='contactForm' onSubmit={sendEmail}>
             <input type='text' className='name' placeholder='Your Name' name='from_name' />
@@ -38,7 +33,11 @@ export default function Contact() {
             <textarea className='msg' name='message' rows='5' placeholder='Your Message' />
             <button type='submit' value='Send' className='submitBtn'>Submit</button>
           </form>
-
+          <section className="socialLinks">
+            <a href="https://www.facebook.com/serendipitycreativewriters/" rel="noreferrer" target="blank"><img src={facebookIcon} alt="facebook" className="link" /></a>
+            <a href="/" rel="noreferrer" target="blank"><img src={linkedInIcon} alt="linkedIn" className="link" /></a>
+            <a href="/" rel="noreferrer" target="blank"><img src={instagramIcon} alt="instagram" className="link" /></a>
+          </section>
         </div>
       <Footer />
     </div>

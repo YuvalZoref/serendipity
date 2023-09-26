@@ -14,7 +14,7 @@
 
   .contactDescription {
     padding: 1rem;
-    padding-top: 0;
+    padding-top: 0.5rem;
     font-size: 1.3rem;
     font-weight: 600;
     color: #41ae99;
@@ -36,14 +36,14 @@
       max-width: 30rem;
       margin: 0.5rem;
       padding: 0.7rem 1rem;
-      background: #FAF9F6;
-      border: 2px solid #fc6c6b;
+      background: #e1e1e0;
+      border: none;
       border-radius: 0.5rem;
     }
     .submitBtn {
-      background: #FAF9F6;
-      color: #41ae99;
-      border: 2px solid #41ae99;
+      background: #41ae99;
+      color: #FAF9F6;
+      border: none;
       font-weight: 600;
       border-radius: 0.5rem;
       margin-top: 1rem;
@@ -52,6 +52,7 @@
     .submitBtn:hover {
       cursor: pointer;
       opacity: 0.6;
+      transition: 0.2s;
     }
   }
   .socialLinks{
@@ -67,6 +68,7 @@
   }
   .link:hover{
     opacity: 0.7;
+    transition: 0.2s;
   }
 
   @media screen and (max-width:560px) {
