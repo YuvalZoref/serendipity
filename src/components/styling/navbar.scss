@@ -3,28 +3,27 @@
   width: 100vw;
   /* max-width: 80rem; */
   margin: 0 auto;
-  padding: 1rem 2rem;
-  padding-left: 1.25rem;
+  padding: 1rem 1.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 3;
-  background: #eae9e8;
-  /* background: #effafc; */
+  background: #4291b0;
 
   .logo {
     object-fit: contain;
     height: 5rem;
     width: auto;
-    padding: 0.25rem;
+    padding: 0.5rem;
     padding-left: 0;
   }
   .navbarDesktopLink {
     margin: 1rem;
     cursor: pointer;
-    color: rgb(30, 30, 30);
+    color: #faf9f6;
+    font-size: 1.1rem;
   }
   .navbarDesktopLink:hover {
     opacity: 0.7;
@@ -33,7 +32,9 @@
   .burgerMenu {
     display: none;
     height: 2.5rem;
-    padding: 0.25rem;
+    /* padding: 0.25rem; */
+    padding-right: 0;
+    margin-left: 2rem;
     cursor: pointer;
   }
   .burgerMenu:hover {
@@ -70,6 +71,7 @@
     }
     .burgerMenu {
       display: flex;
+      /* margin-left: 1rem; */
     }
     .navbarDesktop {
       display: none;

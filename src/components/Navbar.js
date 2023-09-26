@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../components/styling/navbar.scss';
-import Logo from '../assets/navbar/logo.png';
-import Burger from '../assets/navbar/burger.png';
+import Logo from '../assets/navbar/butterfly.png';
+import Burger from '../assets/navbar/burger2.png';
 
 
 export default function Navbar() {

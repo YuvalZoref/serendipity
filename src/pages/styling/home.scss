@@ -23,7 +23,7 @@
 
     .homeTextWord{
       color: #fc6c6b;
-      font-size: 4.5rem;
+      font-size: 4.8rem;
       font-family: 'Dancing Script', cursive;
       ;
     }
@@ -82,7 +82,7 @@
       padding-bottom: 1rem;
     }
     .homeText{
-      font-size: 3rem;
+      font-size: 3.25rem;
       font-style: italic;
       margin-top: 3rem;
       font-weight: 900;
@@ -94,8 +94,10 @@
     }
     .homeBtnLink{
       margin-bottom: 0;
-      margin-left: 1rem;
-      font-size: 0.75rem;
+      margin-left: 2rem;
+      .btnText{
+        font-size: 1.25rem;
+      }
     }
     .homeItemsRight{
       margin-top: 0;
@@ -105,7 +107,7 @@
       padding-bottom: 1rem;
       .landingPic{
         width: 20rem;
-        height: 25rem;
+        height: 23rem;
       }
     }
   }

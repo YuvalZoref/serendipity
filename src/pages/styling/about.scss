@@ -14,12 +14,16 @@
     margin: 2rem auto;
 
     .aboutUsTitle {
-      font-size: 3.75rem;
       margin-bottom: 1rem;
-    }
+      color: #41ae99;
+      font-size: 6rem;
+      font-family: 'Dancing Script', cursive;
+      }
     .aboutUsSubtitle {
-      font-size: 2.5rem;
+      font-size: 3rem;
       margin-bottom: 1.25rem;
+      /* color: #4291b0; */
+      color: #fc6c6b;
     }
     .aboutSerenPic {
       padding: 1rem;
@@ -30,6 +34,7 @@
     .aboutTextTop{
       font-weight: 600;
       font-size: 1.55rem;
+      /* color: #41ae99; */
     }
     .aboutUsDescription {
       font-size: 1.5rem;
@@ -44,8 +49,9 @@
     /* background: #9090aa; */
 
     .staffTitle{
-      font-size: 2.5rem;
-      margin-bottom: 1.5rem;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #fc6c6b;
     }
 
     .staffImages{
@@ -65,7 +71,7 @@
         .staffName{
           margin: 0.25rem 0;
           font-size: 1.6rem;
-          color: #475924;
+          color: #41ae99;
         }
 
         .staffJob{
@@ -141,6 +147,9 @@
 @media screen and (max-width:560px) {
   #about{
     .aboutUs{
+      .aboutUsTitle{
+        font-size: 4.5rem;
+      }
       .aboutTextTop{
         font-size: 1.3rem;
       }

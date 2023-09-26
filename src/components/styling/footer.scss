@@ -1,14 +1,18 @@
 #footer {
   width: 100vw;
   height: 5rem;
-  background: #eae9e8;
+  /* background: #eae9e8; */
+  background: #4291b0;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #faf9f6;
 
   .footerLink {
     font-style: italic;
-    font-weight: 600;
+    font-weight: 500;
+    color: #c9c9c9;
+
   }
   .footerLink:hover {
     cursor: pointer;
