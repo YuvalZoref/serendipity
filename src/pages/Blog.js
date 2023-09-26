@@ -6,6 +6,8 @@ import Cloggs from '../assets/blog/cloggs2.jpg'
 import fullCircle from '../assets/blog/fullCircle.jpg'
 import Carousel from '../components/Carousel'
 import slides from "../data/carouselData"
+import party from '../assets/blog/party.jpg'
+import van from '../assets/blog/van.jpg'
 import certificate2 from '../assets/blog/certificate2.jpg'
 import certificate3 from '../assets/blog/certificate3.jpg'
 
@@ -43,11 +45,11 @@ export default function Blog() {
         </div>
       </section>
       <section className='celebs'>
-        <h1 className='celebsTitle'>People we've met</h1>
+        <h1 className='celebsTitle'>Gallery</h1>
         <div className='celebspics'>
-          <img className='certificate' src={certificate2} alt='certificate'/>
-          <Carousel data={slides} />
-          <img className='certificate' src={certificate3} alt='certificate'/>
+          <img src={certificate2} alt='certificate' className='celebSidePic'/>
+          <Carousel className='carousel' data={slides} />
+          <img src={party} alt='party' className='celebSidePic'/>
         </div>
       </section>
       <section className='funders'>
@@ -83,6 +85,14 @@ export default function Blog() {
             <li className='fundersListItem'>Platform 1</li>
           </ul>
         </section>
+        <section className='celebs'>
+        <h1 className='celebsTitle'>People we've met</h1>
+        <div className='celebspics'>
+          <img src={van} alt='van' className='celebSidePic'/>
+          <Carousel className='carousel' data={slides} />
+          <img src={certificate3} alt='certificate' className='celebSidePic'/>
+        </div>
+      </section>
         </div>
       <Footer />
     </div>
