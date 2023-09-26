@@ -26,7 +26,7 @@ export default function Contact() {
       <Navbar />
         <div id='contact'>
           <h1 className='contactTitle'>Contact Us</h1>
-          <span className='contactDescription'>Feel free to fill out the form below if you are interested</span>
+          <span className='contactDescription'>Feel free to fill out the form below to reach out to us!</span>
           <form className='contactForm' onSubmit={sendEmail}>
             <input type='text' className='name' placeholder='Your Name' name='from_name' />
             <input type='email' className='email' placeholder='Your Email' name='from_email' />
