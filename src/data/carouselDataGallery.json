@@ -1,0 +1,32 @@
+{
+  "slides": [
+ {
+   "src": "/images/celebs/billy.jpg",
+   "alt": "image 1"
+ },
+ {
+   "src": "/images/celebs/jason.jpg",
+   "alt": "image 2"
+ },
+ {
+   "src": "/images/celebs/kimLeadbeater.jpg",
+   "alt": "image 3"
+ },
+ {
+   "src": "/images/celebs/max.jpg",
+   "alt": "image 4"
+ },
+ {
+   "src": "/images/celebs/rubyWax.jpg",
+   "alt": "image 5"
+ },
+ {
+   "src": "/images/celebs/russellBrand.jpg",
+   "alt": "image 6"
+ },
+ {
+   "src": "/images/celebs/tracy.jpg",
+   "alt": "image 7"
+ }
+]
+}

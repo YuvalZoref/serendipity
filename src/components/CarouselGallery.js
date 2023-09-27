@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './styling/carousel.scss';
+import './styling/carouselGallery.scss';
 import {BsArrowLeftCircleFill, BsArrowRightCircleFill} from 'react-icons/bs'
-import imageData from '../data/carouselData.json'
+import imageData from '../data/carouselDataGallery.json'
 
-const Carousel = ({ data }) => {
+const CarouselGallery = ({ data }) => {
   const [slide, setSlide] = useState(0);
 
   const nextSlide = () => {
@@ -45,4 +45,4 @@ const Carousel = ({ data }) => {
 };
 
 
-export default Carousel;
+export default CarouselGallery;

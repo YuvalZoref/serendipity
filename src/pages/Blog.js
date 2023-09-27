@@ -4,8 +4,10 @@ import '../pages/styling/blog.scss'
 import Crescent from '../assets/blog/crescent.png'
 import Cloggs from '../assets/blog/cloggs2.jpg'
 import fullCircle from '../assets/blog/fullCircle.jpg'
-import Carousel from '../components/Carousel'
-import slides from "../data/carouselData"
+import CarouselPeople from '../components/CarouselPeople'
+import CarouselGallery from '../components/CarouselGallery'
+import PeopleSlides from '../data/carouselDataPeople'
+import GallerySlides from '../data/carouselDataGallery'
 import party from '../assets/blog/party.jpg'
 import van from '../assets/blog/van.jpg'
 import certificate2 from '../assets/blog/certificate2.jpg'
@@ -48,7 +50,7 @@ export default function Blog() {
         <h1 className='celebsTitle'>Gallery</h1>
         <div className='celebspics'>
           <img src={certificate2} alt='certificate' className='celebSidePic'/>
-          <Carousel className='carousel' data={slides} />
+          <CarouselGallery className='carousel' data={GallerySlides} />
           <img src={party} alt='party' className='celebSidePic'/>
         </div>
       </section>
@@ -89,7 +91,7 @@ export default function Blog() {
         <h1 className='celebsTitle'>People we've met</h1>
         <div className='celebspics'>
           <img src={van} alt='van' className='celebSidePic'/>
-          <Carousel className='carousel' data={slides} />
+          <CarouselPeople className='carousel' data={PeopleSlides} />
           <img src={certificate3} alt='certificate' className='celebSidePic'/>
         </div>
       </section>
