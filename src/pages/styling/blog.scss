@@ -103,13 +103,19 @@
       color: #fc6c6b;
       font-family: 'Dancing Script', cursive;
     }
+    .fundersDescription{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #41ae99;
+    }
 
     .fundersList{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       list-style: none;
-      margin: 1rem 2rem;
+      margin: 2rem 2rem;
 
       .fundersListItem{
         font-size: 1.25rem;
@@ -129,8 +135,15 @@
     .celebsTitle{
       font-size: 2.5rem;
       margin: 1rem 0;
+      margin-top: 0;
       color: #fc6c6b;
       font-family: 'Dancing Script', cursive;
+    }
+    .carouselDescription{
+        margin: 1rem 0 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #41ae99;
     }
     .celebspics{
       margin: 0 0.5rem;
@@ -147,7 +160,7 @@
       .celebSidePic{
         width: 400px;
         height: 500px;
-        margin: 0 0.5rem;
+        margin: 0 1rem;
         border-radius: 0.75rem;
         object-fit: cover;
         box-shadow: 0px 0px 7px #666;

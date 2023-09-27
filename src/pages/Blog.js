@@ -48,14 +48,25 @@ export default function Blog() {
       </section>
       <section className='celebs'>
         <h1 className='celebsTitle'>Gallery</h1>
+        <p className='carouselDescription'>Have a look at some of our events & groups</p>
         <div className='celebspics'>
           <img src={certificate2} alt='certificate' className='celebSidePic'/>
           <CarouselGallery className='carousel' data={GallerySlides} />
           <img src={party} alt='party' className='celebSidePic'/>
         </div>
       </section>
+        <section className='celebs'>
+        <h1 className='celebsTitle'>People we've met</h1>
+        <p className='carouselDescription'>Check out some of the locals</p>
+        <div className='celebspics'>
+          <img src={van} alt='van' className='celebSidePic'/>
+          <CarouselPeople className='carousel' data={PeopleSlides} />
+          <img src={certificate3} alt='certificate' className='celebSidePic'/>
+        </div>
+      </section>
       <section className='funders'>
         <h1 className='fundersTitle'>Funders & Partnerships</h1>
+        <p className='fundersDescription'>See who we work & partner with</p>
           <ul className='fundersList'>
             <li className='fundersListItem'>Community Plus</li>
             <li className='fundersListItem'>One Community</li>
@@ -87,14 +98,6 @@ export default function Blog() {
             <li className='fundersListItem'>Platform 1</li>
           </ul>
         </section>
-        <section className='celebs'>
-        <h1 className='celebsTitle'>People we've met</h1>
-        <div className='celebspics'>
-          <img src={van} alt='van' className='celebSidePic'/>
-          <CarouselPeople className='carousel' data={PeopleSlides} />
-          <img src={certificate3} alt='certificate' className='celebSidePic'/>
-        </div>
-      </section>
         </div>
       <Footer />
     </div>
