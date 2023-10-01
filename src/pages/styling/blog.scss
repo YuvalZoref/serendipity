@@ -127,7 +127,7 @@
     }
   }
   .celebs{
-    height: 95vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,10 +182,17 @@
     }
     .celebs{
       margin: 0 0.75rem;
+      .celebsTitle{
+        margin-top: 3rem;
+      }
+      .carouselDescription{
+        font-size: 1.1rem;
+        margin-top: 0;
+      }
       .celebspics{
         .carousel{
           margin: 0 0.5;
-          margin-bottom: 0.5rem;
+          margin-bottom: 2rem;
           height: 36rem;
           width: auto;
         }
@@ -202,6 +209,7 @@
       }
       .locationsTitle {
         font-size: 2.5rem;
+        margin-top: 0.75rem;
       }
 
       .locationsDescription{
@@ -213,16 +221,19 @@
       }
     }
     .funders{
-      margin-bottom: 0;
+      margin-bottom: 0.5rem;
       .fundersTitle{
         font-size: 2.25rem;
         margin: 0 0.75rem;
-        margin-top: 0.75rem
+        margin-top: 3rem
+      }
+      .fundersDescription{
+        font-size: 1.1rem;
       }
       .fundersList{
         .fundersListItem{
           font-size: 0.75rem;
-          margin-bottom: 0.5rem;
+          margin-bottom: 0.75rem;
         }
       }
     }

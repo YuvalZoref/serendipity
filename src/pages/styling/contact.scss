@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 1rem 0;
 
   .contactTitle {
     font-size: 3.5rem;
@@ -14,10 +15,16 @@
 
   .contactDescription {
     padding: 1rem;
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 700;
+    color: #fc6c6b;
+  }
+  .contactDescriptionphone {
     color: #41ae99;
+    font-size: 1.65rem;
+    font-weight: 600;
+    font-style: italic;
   }
 
   .contactForm {
@@ -36,7 +43,7 @@
       max-width: 30rem;
       margin: 0.5rem;
       padding: 0.7rem 1rem;
-      background: #e1e1e0;
+      background: #e8e8e5;
       border: none;
       border-radius: 0.5rem;
     }
@@ -63,8 +70,8 @@
   .link{
     /* background: rgb(219, 218, 218); */
     height: 2.75rem;
-    margin: 0.2rem;
-    border-radius: 0.9rem
+    margin: 0 0.4rem;
+    border-radius: 0.9rem;
   }
   .link:hover{
     opacity: 0.7;
@@ -81,10 +88,14 @@
       }
     }
     .contactTitle {
-      font-size: 3.2rem;
+      font-size: 2.75rem;
+    }
+    .contactDescriptionphone {
+      font-size: 1.4rem;
+      margin-top: 0.5rem;
     }
     .contactDescription {
-      font-size: 0.93rem;
+      font-size: 0.9rem;
       margin-top: 0.5rem;
     }
   }

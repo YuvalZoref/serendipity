@@ -26,6 +26,7 @@ export default function Contact() {
       <Navbar />
         <div id='contact'>
           <h1 className='contactTitle'>Contact Us</h1>
+          <span className='contactDescriptionphone'>+447751254609</span>
           <span className='contactDescription'>Feel free to fill out the form below to reach out to us!</span>
           <form className='contactForm' onSubmit={sendEmail}>
             <input type='text' className='name' placeholder='Your Name' name='from_name' />

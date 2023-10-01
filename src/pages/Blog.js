@@ -57,7 +57,7 @@ export default function Blog() {
       </section>
         <section className='celebs'>
         <h1 className='celebsTitle'>People we've met</h1>
-        <p className='carouselDescription'>Check out some of the locals</p>
+        <p className='carouselDescription'>Check out some celebs we've met</p>
         <div className='celebspics'>
           <img src={van} alt='van' className='celebSidePic'/>
           <CarouselPeople className='carousel' data={PeopleSlides} />
