@@ -14,7 +14,7 @@
 
   .logo {
     object-fit: contain;
-    height: 5rem;
+    height: 4.65rem;
     width: auto;
     padding: 0.5rem;
     padding-left: 0;
@@ -26,19 +26,17 @@
     font-size: 1.1rem;
   }
   .navbarDesktopLink:hover {
-    opacity: 0.7;
+    opacity: 0.9;
+    color: #fdeade;
   }
 
   .burgerMenu {
     display: none;
-    height: 2.5rem;
+    height: 2.75rem;
     /* padding: 0.25rem; */
     padding-right: 0;
     margin-left: 2rem;
     cursor: pointer;
-  }
-  .burgerMenu:hover {
-    opacity: 0.6;
   }
 
   .navMenu {
