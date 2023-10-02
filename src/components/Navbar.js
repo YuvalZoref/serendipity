@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../components/styling/navbar.scss';
 import Logo from '../assets/navbar/Serendipity.png';
-import Burger from '../assets/navbar/burger2.png';
+import Burger from '../assets/navbar/burger.png';
 
 
 export default function Navbar() {
