@@ -8,6 +8,7 @@ import Kathy from '../assets/about/kathy.png'
 import Martyn from '../assets/about/martyn.png'
 import Mira from '../assets/about/mira.png'
 import Philip from '../assets/about/philip.jpg'
+import Martin from '../assets/about/Martin.jpg'
 
 export default function About() {
   return (
@@ -61,6 +62,19 @@ export default function About() {
                 working with babies to the elderly.
                 Her work also includes giving respite to unpaid carers in order for them to be able to take a break.
                 She has 3 grown up children and 6 grandchildren which keep her very busy. She also enjoys gardening and social family occasions.
+              </p>
+            </div>
+          </div>
+          <div className='imgItem'>
+            <img src={Martin} alt='Martin' className="staffImage" />
+            <div className='imgItemSection'>
+              <h2 className='staffName'>Martin Hemingway</h2>
+              <h2 className='staffJob'>Treasurer/Trustee</h2>
+              <p className='staffDescription'>
+              Martin is semi retired but still actively involved in running his own business; designing and
+              manufacturing supply tools for the tiling industry, based in West Yorkshire.
+              In his spare time he enjoys visiting coastal areas, karaoke and pub quizzes.
+              Marin has 10 grandchildren that keep him on his toes.
               </p>
             </div>
           </div>
