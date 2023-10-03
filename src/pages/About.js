@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../pages/styling/about.scss'
-import SerenPic from '../assets/about/seren-pic.jpg'
+import SerenPic from '../assets/about/serenbw.jpg'
 import Sonia from '../assets/about/sonia.jpg'
 import Amanda from '../assets/about/amanda.jpg'
 import Kathy from '../assets/about/kathy.png'
