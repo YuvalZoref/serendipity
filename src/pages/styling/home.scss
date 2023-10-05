@@ -81,12 +81,13 @@
     height: 100vh;
     flex-direction: column;
     overflow: hidden;
+    /* padding: 4rem; */
 
     .homeItemsLeft{
       width: 90%;
       align-items: center;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      padding-top: 2rem;
+      /* padding-bottom: 1rem; */
     }
     .homeText{
       font-size: 3rem;
@@ -112,7 +113,7 @@
       margin-bottom: 0;
       margin-left: 2rem;
       padding: 0;
-      padding-bottom: 1rem;
+      padding-bottom: 3rem;
       .landingPic{
         margin-top: 1rem;
         margin-bottom: 2rem;
