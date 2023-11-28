@@ -17,12 +17,14 @@ export default function Navbar() {
           <Link className='navbarDesktopLink' to='../'>Home</Link>
         </div>
 
-        <img src={Burger} alt='burgerMenu' className='burgerMenu' onClick={()=>setShowMenu(!showMenu)}/>
+        <img src={Burger} alt='burgerMenu' className='burgerMenu' onClick={()=>setShowMenu(!showMenu)} />
         <div className='navMenu' style={{display: showMenu? 'flex':'none'}}>
-          <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../About'>About</Link>
-          <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../Blog'>Blog</Link>
-          <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../Contact'>Contact</Link>
-          <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../'>Home</Link>
+          <div className='navMenuLinksContainer'>
+            <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../About'>About</Link>
+            <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../Blog'>Blog</Link>
+            <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../Contact'>Contact</Link>
+            <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../'>Home</Link>
+          </div>
         </div>
     </nav>
   )

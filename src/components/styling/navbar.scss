@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* position: sticky; */
+  position: sticky;
   top: 0;
   z-index: 3;
   background: #57899c;
@@ -34,34 +34,51 @@
 
   .burgerMenu {
     display: none;
-    height: 2.8rem;
+    height: 2.6rem;
     width: 2.4rem;
     cursor: pointer;
+    margin-right: 0.25rem;
   }
 
   .navMenu {
-    position: absolute;
-    top: 5rem;
-    right: 0.25rem;
-    z-index: 2;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 4.25rem;
+    right: 0rem;
+    z-index: 2;
     padding: 0.5rem;
-    height: fit-content;
-    min-width: 15rem;
+    height: calc(100vh - 3.75rem);
+    width: 100vw;
     background: #57899c;
-    border-radius: 0.75rem;
+
+
+    /* .navMenu:active {
+      transition: all 2s ease;
+    } */
+
+
+    .navMenuLinksContainer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
 
     .navMenuLink {
-      color: #6f9a58;
-      font-weight: 600;
-      padding: 0.5rem 3rem;
+      color: #FAF9F6;
+      /* font-weight: 600; */
+      font-size: 2.25rem;
+      padding: 1rem;
       margin: 0.25rem;
       border-radius: 0.5rem;
-      background: #FAF9F6;
+      margin: 1.5rem 0;
     }
     .navMenuLink:hover {
-      opacity: 0.7;
+      opacity: 0.8;
+      font-size: 3rem;
+      transition: all 0.75s ease;
     }
   }
   @media screen and (max-width:720px) {
@@ -70,7 +87,7 @@
     }
     .burgerMenu {
       display: flex;
-      /* margin-left: 1rem; */
+
     }
     .navbarDesktop {
       display: none;
