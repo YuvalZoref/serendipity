@@ -1,24 +1,19 @@
 #navbar {
   height: 5rem;
   width: 100vw;
-  /* max-width: 80rem; */
-  margin: 0 auto;
   padding: 1rem 1.25rem;
-  padding-right: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: sticky;
   top: 0;
-  z-index: 3;
   background: #7e8f97;
 
   .logo {
     object-fit: contain;
-    height: 5rem;
+    height: 4.5rem;
     width: auto;
     padding: 0.6rem;
-    /* padding-left: 0.5rem; */
   }
   .navbarDesktopLink {
     margin: 1rem;
@@ -84,12 +79,11 @@
   }
   @media screen and (max-width:720px) {
     .logo{
+      /* padding: 1rem; */
       padding-left: 0;
     }
     .burgerMenu {
       display: flex;
-      margin-right: 0.5rem;
-
     }
     .navbarDesktop {
       display: none;
