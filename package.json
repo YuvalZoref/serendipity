@@ -1,7 +1,7 @@
 {
   "name": "serendipity",
   "version": "0.1.0",
-  "homepage": "serendipitycreativewriters.org",
+  "homepage": "https://serendipitycreativewriters.org/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
