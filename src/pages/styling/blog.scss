@@ -11,14 +11,14 @@
 
     .locationsTitle{
       font-size: 2.5rem;
-      color: #bc2931;
-      font-family: 'Dancing Script', cursive;
+      /* color: #bc2931; */
+      /* font-family: 'Dancing Script', cursive; */
     }
     .locationsDescription{
       margin-top: 1rem;
       font-size: 1.5rem;
       font-weight: 600;
-      color: #6f9a58;
+      /* color: #6f9a58; */
     }
     .row {
       margin-top: 3%;
@@ -49,7 +49,7 @@
       transition: 0.5s;
     }
     .layer:hover {
-      background: #feb848a7;
+      background: #6f9a58;
       opacity: 0.9;
       transition: 0.5s;
     }
@@ -100,14 +100,14 @@
       margin-top: 2rem;
       margin-bottom: 0.5rem;
       text-align: center;
-      color: #bc2931;
-      font-family: 'Dancing Script', cursive;
+      /* color: #bc2931; */
+      /* font-family: 'Dancing Script', cursive; */
     }
     .fundersDescription{
         margin-top: 1rem;
         font-size: 1.5rem;
         font-weight: 600;
-        color: #6f9a58;
+        /* color: #6f9a58; */
     }
 
     .fundersList{
@@ -120,7 +120,7 @@
       .fundersListItem{
         font-size: 1.25rem;
         margin: 0.3rem;
-        border-right: 2px solid #6f9a58;
+        border-right: 3px solid #6f9a58;
         padding-right: 0.3rem;
         font-weight: 500;
       }
@@ -136,14 +136,14 @@
       font-size: 2.5rem;
       margin: 1rem 0;
       margin-top: 0;
-      color: #bc2931;
-      font-family: 'Dancing Script', cursive;
+      /* color: #bc2931; */
+      /* font-family: 'Dancing Script', cursive; */
     }
     .carouselDescription{
         margin: 1rem 0 2rem;
         font-size: 1.5rem;
         font-weight: 600;
-        color: #6f9a58;
+        /* color: #6f9a58; */
     }
     .celebspics{
       margin: 0 0.5rem;

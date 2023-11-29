@@ -1,8 +1,7 @@
 #footer {
   width: 100vw;
   height: 5rem;
-  /* background: #eae9e8; */
-  background: #57899c;
+  background: #7e8f97;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,17 +10,17 @@
   .footerLink {
     font-style: italic;
     font-weight: 500;
-    color: #fdeade;
-
+    color: #efe5df;
   }
   .footerLink:hover {
     cursor: pointer;
     opacity: 0.8;
+    transition: all 0.2s ease;
   }
 }
 
 @media screen and (max-width:560px) {
   #footer {
-    font-size: 0.65rem;
+    font-size: 0.675rem;
   }
 }

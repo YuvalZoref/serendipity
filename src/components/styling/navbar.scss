@@ -11,15 +11,14 @@
   position: sticky;
   top: 0;
   z-index: 3;
-  background: #57899c;
+  background: #7e8f97;
 
   .logo {
     object-fit: contain;
-    height: 4.5rem;
+    height: 5rem;
     width: auto;
-    padding: 0.5rem;
-    padding-bottom: 0.75rem;
-    padding-left: 0;
+    padding: 0.6rem;
+    /* padding-left: 0.5rem; */
   }
   .navbarDesktopLink {
     margin: 1rem;
@@ -28,8 +27,8 @@
     font-size: 1.1rem;
   }
   .navbarDesktopLink:hover {
-    opacity: 0.9;
-    color: #fdeade;
+    opacity: 0.6;
+    transition: all 0.3s ease;
   }
 
   .burgerMenu {
@@ -50,7 +49,9 @@
     padding: 0.5rem;
     height: calc(100vh - 3.75rem);
     width: 100vw;
-    background: #57899c;
+    background: #7e8f97;
+    overflow: hidden;
+
 
 
     /* .navMenu:active {
@@ -63,7 +64,7 @@
       align-items: center;
       flex-direction: column;
       justify-content: center;
-      margin-bottom: 2rem;
+      margin-bottom: 4rem;
     }
 
     .navMenuLink {
@@ -83,10 +84,11 @@
   }
   @media screen and (max-width:720px) {
     .logo{
-      left: 0;
+      padding-left: 0;
     }
     .burgerMenu {
       display: flex;
+      margin-right: 0.5rem;
 
     }
     .navbarDesktop {

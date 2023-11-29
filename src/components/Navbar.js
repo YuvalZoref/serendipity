@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../components/styling/navbar.scss';
-import Logo from '../assets/navbar/Serendipity.png';
+import Logo from '../assets/navbar/serendipity-logo.png';
 import Burger from '../assets/navbar/burger.png';
 
 
@@ -18,7 +18,7 @@ export default function Navbar() {
         </div>
 
         <img src={Burger} alt='burgerMenu' className='burgerMenu' onClick={()=>setShowMenu(!showMenu)} />
-        <div className='navMenu' style={{display: showMenu? 'flex':'none'}}>
+        <div className='navMenu' style={{display: showMenu ? 'flex':'none'}}>
           <div className='navMenuLinksContainer'>
             <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../About'>About</Link>
             <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../Blog'>Blog</Link>
