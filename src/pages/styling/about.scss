@@ -27,8 +27,10 @@
     .aboutSerenPic {
       margin: 1rem;
       width: 16rem;
-      border-radius: 2rem;
-    }
+      border-radius: 1.75rem;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      }
+
     .aboutTextTop{
       font-weight: 600;
       font-size: 1.55rem;
@@ -96,7 +98,8 @@
           width: 19rem;
           margin: 0.5rem;
           margin-bottom: 0.2rem;
-          border-radius: 0.8rem;
+          border-radius: 0.6rem;
+          box-shadow: rgba(6, 24, 44, 0.177) 0px 0px 0px 2px, rgba(6, 24, 44, 0.347) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
         }
       }
     }
