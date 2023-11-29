@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/serendipity/static/css/main.08990e44.css",
-    "main.js": "/serendipity/static/js/main.1a7146bd.js",
-    "static/media/van.jpg": "/serendipity/static/media/van.c0035048db5ec8fc2e5d.jpg",
-    "static/media/crescent.png": "/serendipity/static/media/crescent.56ffefca079e1419d426.png",
-    "static/media/kathy.png": "/serendipity/static/media/kathy.d24ad7f517b2b1ef1448.png",
-    "static/media/mira.png": "/serendipity/static/media/mira.20de888c39e8c0a8fe3f.png",
-    "static/media/party.jpg": "/serendipity/static/media/party.78af0d32d0673ffb43f5.jpg",
-    "static/media/martyn.png": "/serendipity/static/media/martyn.0351268da1aef5f987ba.png",
-    "static/media/serenbw.jpg": "/serendipity/static/media/serenbw.d3a2521d5e8dfce0a818.jpg",
-    "static/media/cloggs2.jpg": "/serendipity/static/media/cloggs2.7a18495b821bd006d4f3.jpg",
-    "static/media/certificate3.jpg": "/serendipity/static/media/certificate3.75692bf7e5110a95d82a.jpg",
-    "static/media/fullCircle.jpg": "/serendipity/static/media/fullCircle.23f081bd41c12f44eb70.jpg",
-    "static/media/certificate2.jpg": "/serendipity/static/media/certificate2.d9cee110591fc22d997b.jpg",
-    "static/media/sonia.jpg": "/serendipity/static/media/sonia.b538630b50bf81cbb045.jpg",
-    "static/media/amanda.jpg": "/serendipity/static/media/amanda.593623c9e7e115648d55.jpg",
-    "static/media/philip.jpg": "/serendipity/static/media/philip.61fe03103608a81b7621.jpg",
-    "static/media/serendipity-logo.png": "/serendipity/static/media/serendipity-logo.b2c4cb8e11ddec3e0449.png",
-    "static/media/Martin.jpg": "/serendipity/static/media/Martin.23122bab5a1fffaf2583.jpg",
-    "static/media/seren-pic.jpg": "/serendipity/static/media/seren-pic.b35894c5fbfedac3274a.jpg",
-    "index.html": "/serendipity/index.html",
-    "main.08990e44.css.map": "/serendipity/static/css/main.08990e44.css.map",
-    "main.1a7146bd.js.map": "/serendipity/static/js/main.1a7146bd.js.map"
+    "main.css": "/static/css/main.08990e44.css",
+    "main.js": "/static/js/main.036a2f41.js",
+    "static/media/van.jpg": "/static/media/van.c0035048db5ec8fc2e5d.jpg",
+    "static/media/crescent.png": "/static/media/crescent.56ffefca079e1419d426.png",
+    "static/media/kathy.png": "/static/media/kathy.d24ad7f517b2b1ef1448.png",
+    "static/media/mira.png": "/static/media/mira.20de888c39e8c0a8fe3f.png",
+    "static/media/party.jpg": "/static/media/party.78af0d32d0673ffb43f5.jpg",
+    "static/media/martyn.png": "/static/media/martyn.0351268da1aef5f987ba.png",
+    "static/media/serenbw.jpg": "/static/media/serenbw.d3a2521d5e8dfce0a818.jpg",
+    "static/media/cloggs2.jpg": "/static/media/cloggs2.7a18495b821bd006d4f3.jpg",
+    "static/media/certificate3.jpg": "/static/media/certificate3.75692bf7e5110a95d82a.jpg",
+    "static/media/fullCircle.jpg": "/static/media/fullCircle.23f081bd41c12f44eb70.jpg",
+    "static/media/certificate2.jpg": "/static/media/certificate2.d9cee110591fc22d997b.jpg",
+    "static/media/sonia.jpg": "/static/media/sonia.b538630b50bf81cbb045.jpg",
+    "static/media/amanda.jpg": "/static/media/amanda.593623c9e7e115648d55.jpg",
+    "static/media/philip.jpg": "/static/media/philip.61fe03103608a81b7621.jpg",
+    "static/media/serendipity-logo.png": "/static/media/serendipity-logo.b2c4cb8e11ddec3e0449.png",
+    "static/media/Martin.jpg": "/static/media/Martin.23122bab5a1fffaf2583.jpg",
+    "static/media/seren-pic.jpg": "/static/media/seren-pic.b35894c5fbfedac3274a.jpg",
+    "index.html": "/index.html",
+    "main.08990e44.css.map": "/static/css/main.08990e44.css.map",
+    "main.036a2f41.js.map": "/static/js/main.036a2f41.js.map"
   },
   "entrypoints": [
     "static/css/main.08990e44.css",
-    "static/js/main.1a7146bd.js"
+    "static/js/main.036a2f41.js"
   ]
 }
