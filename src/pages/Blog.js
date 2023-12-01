@@ -68,6 +68,7 @@ export default function Blog() {
         <h1 className='fundersTitle'>Funders & Partnerships</h1>
         <p className='fundersDescription'>See who we work & partner with</p>
           <ul className='fundersList'>
+            <li className='fundersListItem'>Third sector leaders, Huddersfield</li>
             <li className='fundersListItem'>Community Plus</li>
             <li className='fundersListItem'>One Community</li>
             <li className='fundersListItem'>The National Lottery</li>
