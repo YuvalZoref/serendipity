@@ -1,5 +1,5 @@
 #contact {
-  min-height: calc(100vh - 10rem);
+  min-height: calc(100vh - 6.75rem);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,7 @@
 
   .contactTitle {
     font-size: 3.5rem;
-    /* color: #bc2931; */
+    color: #6f9a58;
     /* font-family: 'Dancing Script', cursive; */
     margin-bottom: 0.5rem
   }
@@ -18,10 +18,10 @@
     /* padding-top: 0.5rem; */
     font-size: 1.3rem;
     font-weight: 700;
-    /* color: #bc2931; */
+    /* color: #6f9a58; */
   }
   .contactDescriptionphone {
-    color: #6f9a58;
+    color: #575d5e;
     font-size: 1.65rem;
     font-weight: 600;
     /* font-style: italic; */
@@ -43,7 +43,7 @@
       max-width: 30rem;
       margin: 0.5rem;
       padding: 0.7rem 1rem;
-      background: #e8e8e5;
+      background: #dadee0;
       border: none;
       border-radius: 0.5rem;
     }
