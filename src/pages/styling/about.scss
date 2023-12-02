@@ -2,6 +2,7 @@
   min-height: calc(100vh - 6.4rem);
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 
   .aboutUs {
     display: flex;

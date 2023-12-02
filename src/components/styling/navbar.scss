@@ -1,6 +1,6 @@
 #navbar {
   height: 3.2rem;
-  width: 100vw;
+  /* width: 100vw; */
   padding: 1rem 1.25rem;
   display: flex;
   align-items: center;
@@ -9,6 +9,7 @@
   top: 0;
   z-index: 3;
   background: #98a9b1;
+  /* border-bottom: 2px solid #889297; */
 
   .logo {
     object-fit: contain;
@@ -21,7 +22,7 @@
     margin: 1rem;
     cursor: pointer;
     color: #faf9f6;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
   .navbarDesktopLink:hover {
     opacity: 0.6;
