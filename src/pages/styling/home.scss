@@ -1,5 +1,5 @@
 #home {
-  background: #6f9a58ec;
+  background: linear-gradient(135deg, #bbbad3c2 42%, #b1bfc5dc 58%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,10 +45,10 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    border-radius: 0.7rem;
-    background: rgb(196, 44, 44);
-    border: 1px solid #3e553123;
-    box-shadow: rgba(0, 0, 0, 0.268) 0px 5px 15px;
+    border-radius: 0.6rem;
+    background: rgb(173, 38, 38);
+    /* border: 1px solid #3e553123; */
+    box-shadow: rgba(0, 0, 0, 0.145) 0px 5px 15px;
     .btnText{
       font-weight: 700;
       font-size: 1rem;
@@ -57,7 +57,7 @@
   }
   .homeBtnLink:hover{
     opacity: 0.7;
-    transition: 0.15s ease-in;
+    transition: 0.2s ease-in;
   }
 
   .homeItemsRight{
@@ -78,6 +78,7 @@
 
 @media screen and (max-width:860px) {
   #home{
+    background: linear-gradient(118deg, #bbbad3c2 45%, #b1bfc5dc 52%);
     height: 100vh;
     flex-direction: column;
     overflow: hidden;
