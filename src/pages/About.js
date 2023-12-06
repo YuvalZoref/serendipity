@@ -9,6 +9,8 @@ import Martyn from '../assets/about/martyn.png'
 import Mira from '../assets/about/mira.png'
 import Philip from '../assets/about/philip.jpg'
 import Martin from '../assets/about/Martin.jpg'
+import Tia from '../assets/about/tia.jpg'
+import Paws from '../assets/about/paws.png'
 
 export default function About() {
   return (
@@ -134,8 +136,32 @@ export default function About() {
               </p>
             </div>
           </div>
+          <div className='imgItem'>
+            <img src={Tia} alt='Tia' className="staffImage" />
+            <div className='imgItemSection'>
+              <h2 className='staffName'>Tia</h2>
+              <h2 className='staffJob'>Emotional Support Canine & Mascot</h2>
+              <p className='staffDescription'>
+                Tia joined the Serendipity Family last year & is a registered emotional support dog.
+                She needed to be around people dealing with the loss of her best friend Loki.
+                Being petted and loved has helped her enormously, and as it turns out, helps others feel better too.
+                Tia was born in Hungary in 2018 and for the first 2 years survived on the streets.
+                She was eventually rescued by the amazing organisation, Waggs and Wet noses,
+                who fostered and nurtured her until she found her forever home with Sonia.
+                Tia has had numerous problems in her short few years, but then enter .. Elvis,
+                our gorgeous little Maine Coon tabby who for the first few months of his life, thought Tia was his mum.
+                This resulted in a false pregnancy and Tia produced milk, yet thrived feeding Elvis.
+                Tia is a gentle soul. She loves unconditionally and brings so much joy to so many people.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
+      <div className='link-wags-container'>
+        Click here to check out&nbsp;
+        <a href="https://www.facebook.com/groups/2008820529405469/" rel="noreferrer" target="blank" className='link-wags'>
+         Wags N' Wet Noses Dog Rescue&nbsp; <img src={Paws} alt='paws' className="paws" /></a>
+      </div>
       </div>
       <Footer />
     </div>

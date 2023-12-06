@@ -22,8 +22,6 @@
     .aboutUsSubtitle {
       font-size: 3rem;
       margin: 1.25rem 0;
-      /* color: #bc2931; */
-      /* font-family: 'Dancing Script', cursive; */
     }
     .aboutSerenPic {
       margin: 1rem;
@@ -37,7 +35,7 @@
       font-size: 1.55rem;
     }
     .aboutUsDescription {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
 
   }
@@ -76,12 +74,12 @@
 
         .staffJob{
           font-size: 1.2rem;
-          font-weight: 500;
+          font-weight: 600;
           margin-bottom: 0.5rem;
         }
 
          .staffDescription{
-          font-size: 1rem;
+          font-size: 0.95rem;
           max-width: 22rem;
           margin-left: 1.5rem;
         }
@@ -103,6 +101,32 @@
           box-shadow: rgba(6, 24, 44, 0.177) 0px 0px 0px 2px, rgba(6, 24, 44, 0.347) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
         }
       }
+    }
+  }
+  .link-wags-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+    font-size: 1.3rem;
+
+
+    .link-wags{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* text-decoration: none; */
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: rgb(196, 44, 44);
+      /* margin-bottom: 1rem; */
+    }
+    .link-wags:hover{
+      color: rgba(196, 44, 44, 0.723);
+      opacity: 0.9;
+    }
+    .paws {
+      height: 3rem;
     }
   }
 }
@@ -145,6 +169,16 @@
             }
           }
         }
+    }
+    .link-wags-container{
+      font-size: 0.7rem;
+      .link-wags {
+        font-size: 0.8rem;
+      }
+      .paws {
+        height: 2rem;
+        /* margin-left: 0.25rem; */
+      }
     }
   }
 }
