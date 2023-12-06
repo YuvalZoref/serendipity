@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1dd0f5f6.css",
-    "main.js": "/static/js/main.756db08d.js",
+    "main.css": "/static/css/main.85f08d2f.css",
+    "main.js": "/static/js/main.294a56ba.js",
+    "static/media/van-noback.png": "/static/media/van-noback.d241bdad80aef4fff956.png",
+    "static/media/tia.jpg": "/static/media/tia.f2dc4a9c2c42095d8a53.jpg",
     "static/media/van.jpg": "/static/media/van.c0035048db5ec8fc2e5d.jpg",
     "static/media/crescent.png": "/static/media/crescent.56ffefca079e1419d426.png",
     "static/media/kathy.png": "/static/media/kathy.d24ad7f517b2b1ef1448.png",
     "static/media/mira.png": "/static/media/mira.20de888c39e8c0a8fe3f.png",
     "static/media/party.jpg": "/static/media/party.78af0d32d0673ffb43f5.jpg",
     "static/media/martyn.png": "/static/media/martyn.0351268da1aef5f987ba.png",
-    "static/media/serenbw.jpg": "/static/media/serenbw.d3a2521d5e8dfce0a818.jpg",
     "static/media/cloggs2.jpg": "/static/media/cloggs2.7a18495b821bd006d4f3.jpg",
     "static/media/certificate3.jpg": "/static/media/certificate3.75692bf7e5110a95d82a.jpg",
     "static/media/fullCircle.jpg": "/static/media/fullCircle.23f081bd41c12f44eb70.jpg",
@@ -20,11 +21,11 @@
     "static/media/Martin.jpg": "/static/media/Martin.23122bab5a1fffaf2583.jpg",
     "static/media/seren-pic.jpg": "/static/media/seren-pic.b35894c5fbfedac3274a.jpg",
     "index.html": "/index.html",
-    "main.1dd0f5f6.css.map": "/static/css/main.1dd0f5f6.css.map",
-    "main.756db08d.js.map": "/static/js/main.756db08d.js.map"
+    "main.85f08d2f.css.map": "/static/css/main.85f08d2f.css.map",
+    "main.294a56ba.js.map": "/static/js/main.294a56ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dd0f5f6.css",
-    "static/js/main.756db08d.js"
+    "static/css/main.85f08d2f.css",
+    "static/js/main.294a56ba.js"
   ]
 }
