@@ -15,13 +15,13 @@
 
     .aboutUsTitle {
       margin-bottom: 1rem;
-      /* color: #6f9a58; */
       font-size: 5rem;
-      /* font-family: 'Dancing Script', cursive; */
       }
     .aboutUsSubtitle {
       font-size: 3rem;
-      margin: 1.25rem 0;
+      margin: 1.5rem 0;
+      padding-bottom: 0.1rem;
+      border-bottom: 3.1px solid rgb(196, 44, 44)
     }
     .aboutSerenPic {
       margin: 1rem;
@@ -35,7 +35,25 @@
       font-size: 1.55rem;
     }
     .aboutUsDescription {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
+      padding: 0 1rem;
+
+      .description-two, .description-four  {
+        width: 100vw;
+        padding: 0 2.5rem;
+        font-size: 1.7rem;
+        font-weight: 600;
+        .word-highlights{
+          color: rgb(196, 44, 44);
+          font-size: 1.8rem;
+        }
+      }
+      .description-one, .description-three {
+        width: 100vw;
+        padding: 0 3rem;
+        background: rgb(245, 244, 244);
+        font-size: 1.4rem;
+      }
     }
 
   }
@@ -45,11 +63,11 @@
     flex-direction: column;
     margin: 2rem 0;
 
+
     .staffTitle{
       font-size: 3rem;
       margin-bottom: 1rem;
-      /* color: #bc2931; */
-      /* font-family: 'Dancing Script', cursive; */
+      margin-top: 4rem;
     }
 
     .staffImages{
@@ -126,7 +144,7 @@
       opacity: 0.9;
     }
     .paws {
-      height: 3rem;
+      height: 2rem;
     }
   }
 }
@@ -137,6 +155,7 @@
       .staffTitle{
         font-size: 2.5rem;
         margin-bottom: 0;
+        margin-top: 0;
       }
         .staffImages{
           .imgItem{
@@ -161,7 +180,7 @@
                 font-size: 1.3rem;
               }
               .staffDescription{
-                font-size: 0.8rem;
+                font-size: 0.95rem;
                 max-width: 22rem;
                 margin-left: 0;
 
@@ -190,14 +209,29 @@
         font-size: 4rem;
       }
       .aboutUsSubtitle{
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
       .aboutTextTop{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
       }
       .aboutUsDescription{
-        font-size: 1.25rem;
-        max-width: 92%;
+        font-size: 1.35rem;
+        padding: 0.5rem 1rem;
+        padding-bottom: 1rem;
+
+
+        .description-one, .description-three {
+          padding: 0 2rem;
+          font-size: 1.2rem;
+        }
+
+        .description-two, .description-four {
+          font-size: 1.4rem;
+          padding: 0 1.4rem;
+          .word-highlights {
+            font-size: 1.5rem;
+          }
+        }
       }
 
     }

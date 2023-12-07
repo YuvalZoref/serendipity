@@ -1,11 +1,12 @@
 #footer {
   /* width: 100vw; */
-  height: 3.2rem;
+  height: 3.75rem;
   background: #98a9b1;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #faf9f6;
+  padding-bottom: 0.5rem;
 
   .footerLink {
     font-style: italic;
@@ -22,5 +23,7 @@
 @media screen and (max-width:560px) {
   #footer {
     font-size: 0.65rem;
+    padding-bottom: 0;
+    height: 3.2rem;
   }
 }
