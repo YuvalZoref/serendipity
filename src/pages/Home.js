@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../pages/styling/home.scss'
-import books from '../assets/home/van-noback.png'
+import books from '../assets/about/serenbw.jpg'
 
 export default function Home() {
   return (

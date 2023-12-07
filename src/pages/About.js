@@ -86,10 +86,11 @@ export default function About() {
               <h2 className='staffName'>Kathy Trout</h2>
               <h2 className='staffJob'>Chairperson/Trustee</h2>
               <p className='staffDescription'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolore mollitia consequuntur exercitationem ullam fugiat aspernatur id,
-                voluptatibus aliquam assumenda illum harum impedit consequatur omnis ipsam laborum, adipisci error,
-                temporibus praesentium!
+              Kathy has an education in Science and worked for the NHS for 10 years before moving to the Computer Industry.
+              She formed the Registered Charity West Yorkshire Dog Rescue 20 years ago.
+              For the last 8 years she has written poetry and runs Marsden Community Poetry, an Open Mic monthly event in Marsden.
+              She produced a Poetry Anthology “Village Voices” published by Maytree Press 2022.
+              Kathy loves horses and whales.
               </p>
             </div>
           </div>
