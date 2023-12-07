@@ -190,9 +190,9 @@
         }
     }
     .link-wags-container{
-      font-size: 0.7rem;
+      font-size: 0.72rem;
       .link-wags {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
       }
       .paws {
         height: 2rem;
@@ -211,13 +211,13 @@
       .aboutUsSubtitle{
         font-size: 2rem;
       }
-      .aboutTextTop{
-        font-size: 1.4rem;
-      }
       .aboutUsDescription{
         font-size: 1.35rem;
         padding: 0.5rem 1rem;
         padding-bottom: 1rem;
+        .aboutTextTop{
+          font-size: 0.75rem;
+        }
 
 
         .description-one, .description-three {
