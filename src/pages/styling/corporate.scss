@@ -1,0 +1,25 @@
+#corporate {
+  min-height: calc(100vh - 6.4rem);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .corpSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 2.5rem auto;
+  }
+}
+
+
+@media screen and (max-width:560px) {
+  #corporate{
+    .corpSection {
+      font-size: 2rem;
+    }
+  }
+}

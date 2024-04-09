@@ -4,6 +4,7 @@ import About from './pages/About'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import NoPage from './pages/NoPage'
+import Corporate from './pages/Corporate'
 
 
 
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Corporate" element={<Corporate />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </div>
