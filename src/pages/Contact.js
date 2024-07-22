@@ -35,7 +35,7 @@ export default function Contact() {
             <button type='submit' value='Send' className='submitBtn'>Submit</button>
           </form>
           <section className="socialLinks">
-            <a href="https://www.facebook.com/serendipitycreativewriters/" rel="noreferrer" target="blank"><img src={facebookIcon} alt="facebook" className="link" /></a>
+            <a href="https://www.facebook.com/serendipitycreativewriters.charity/" rel="noreferrer" target="blank"><img src={facebookIcon} alt="facebook" className="link" /></a>
             <a href="/" rel="noreferrer" target="blank"><img src={linkedInIcon} alt="linkedIn" className="link" /></a>
             <a href="/" rel="noreferrer" target="blank"><img src={instagramIcon} alt="instagram" className="link" /></a>
           </section>
