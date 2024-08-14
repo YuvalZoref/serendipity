@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.04290ed1.css",
-    "main.js": "/static/js/main.25c167ea.js",
+    "main.css": "/static/css/main.bbedd554.css",
+    "main.js": "/static/js/main.dd09affb.js",
     "static/media/homePage.jpg": "/static/media/homePage.3ea51d033751b24ec8a3.jpg",
     "static/media/tia.jpg": "/static/media/tia.f2dc4a9c2c42095d8a53.jpg",
     "static/media/van.jpg": "/static/media/van.c0035048db5ec8fc2e5d.jpg",
@@ -11,6 +11,7 @@
     "static/media/party.jpg": "/static/media/party.78af0d32d0673ffb43f5.jpg",
     "static/media/martyn.png": "/static/media/martyn.0351268da1aef5f987ba.png",
     "static/media/cloggs2.jpg": "/static/media/cloggs2.7a18495b821bd006d4f3.jpg",
+    "static/media/pressRelease.png": "/static/media/pressRelease.0102919985e33f8c28a7.png",
     "static/media/certificate3.jpg": "/static/media/certificate3.75692bf7e5110a95d82a.jpg",
     "static/media/fullCircle.jpg": "/static/media/fullCircle.23f081bd41c12f44eb70.jpg",
     "static/media/certificate2.jpg": "/static/media/certificate2.d9cee110591fc22d997b.jpg",
@@ -18,14 +19,14 @@
     "static/media/amanda.jpg": "/static/media/amanda.593623c9e7e115648d55.jpg",
     "static/media/philip.jpg": "/static/media/philip.61fe03103608a81b7621.jpg",
     "static/media/serendipity-logo.png": "/static/media/serendipity-logo.a2b94fb4c5eb3b15c400.png",
-    "static/media/Martin.jpg": "/static/media/Martin.23122bab5a1fffaf2583.jpg",
+    "static/media/JayneS.jpg": "/static/media/JayneS.58d1a034cd7ba54987bc.jpg",
     "static/media/seren-pic.jpg": "/static/media/seren-pic.b35894c5fbfedac3274a.jpg",
     "index.html": "/index.html",
-    "main.04290ed1.css.map": "/static/css/main.04290ed1.css.map",
-    "main.25c167ea.js.map": "/static/js/main.25c167ea.js.map"
+    "main.bbedd554.css.map": "/static/css/main.bbedd554.css.map",
+    "main.dd09affb.js.map": "/static/js/main.dd09affb.js.map"
   },
   "entrypoints": [
-    "static/css/main.04290ed1.css",
-    "static/js/main.25c167ea.js"
+    "static/css/main.bbedd554.css",
+    "static/js/main.dd09affb.js"
   ]
 }
