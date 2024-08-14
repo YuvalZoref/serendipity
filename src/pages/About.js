@@ -8,7 +8,7 @@ import Kathy from '../assets/about/kathy.png'
 import Martyn from '../assets/about/martyn.png'
 import Mira from '../assets/about/mira.png'
 import Philip from '../assets/about/philip.jpg'
-import Martin from '../assets/about/Martin.jpg'
+import Jayne from '../assets/about/JayneS.jpg'
 import Tia from '../assets/about/tia.jpg'
 import Paws from '../assets/about/paws.png'
 
@@ -75,15 +75,16 @@ export default function About() {
             </div>
           </div>
           <div className='imgItem'>
-            <img src={Martin} alt='Martin' className="staffImage" />
+            <img src={Jayne} alt='JayneS' className="staffImage" />
             <div className='imgItemSection'>
-              <h2 className='staffName'>Martin Hemingway</h2>
+              <h2 className='staffName'>Jayne Shepherd</h2>
               <h2 className='staffJob'>Treasurer/Trustee</h2>
               <p className='staffDescription'>
-              Martin is semi retired but still actively involved in running his own business; designing and
-              manufacturing supply tools for the tiling industry, based in West Yorkshire.
-              In his spare time he enjoys visiting coastal areas, karaoke and pub quizzes.
-              Marin has 10 grandchildren that keep him on his toes.
+              Jayne has a higher Masters degree in pure Maths and has a wealth of experience in statistics and accounting;
+              working in hotel Management and 'Virgin' accounts management. She has successfully owned and run Restaurants,
+              Bars, Pubs and an award-winning Fish and Chip Shop in Pickering; was Area Manager for Cooplands and is
+              currently Genral Manager for Aramark Defence Services in York where she lives. Jayne has two grown up children and has one grandson.
+              Jayne loves travelling; UK and abroad, going on long country walks with her two gorgeous dogs.
               </p>
             </div>
           </div>

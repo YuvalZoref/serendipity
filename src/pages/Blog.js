@@ -12,6 +12,7 @@ import party from '../assets/blog/party.jpg'
 import van from '../assets/blog/van.jpg'
 import certificate2 from '../assets/blog/certificate2.jpg'
 import certificate3 from '../assets/blog/certificate3.jpg'
+import pressRelease from '../assets/blog/pressRelease.png'
 
 
 export default function Blog() {
@@ -53,6 +54,13 @@ export default function Blog() {
           <img src={certificate2} alt='certificate' className='celebSidePic'/>
           <CarouselGallery className='carousel' data={GallerySlides} />
           <img src={party} alt='party' className='celebSidePic'/>
+        </div>
+      </section>
+      <section className='nationalLottery'>
+        <h1 className='natLotTitle'>National Lottery</h1>
+        <p className='natLotDescription'>Check out our press release for the National Lottery funding</p>
+        <div className='pressLetterImage'>
+          <img src={pressRelease} alt='pressReleaseLetter'/>
         </div>
       </section>
         <section className='celebs'>

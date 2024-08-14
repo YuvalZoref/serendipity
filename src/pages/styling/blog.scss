@@ -168,6 +168,27 @@
     }
   }
 
+  .nationalLottery {
+    .natLotTitle {
+      font-size: 2.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .natLotDescription {
+      margin: 2.5rem 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    .pressLetterImage {
+      display: flex;
+      justify-content: center;
+      margin: 2rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
 
   @media screen and (max-width:1000px) {
     .row {
@@ -235,6 +256,23 @@
           font-size: 0.75rem;
           margin-bottom: 0.75rem;
         }
+      }
+    }
+
+    .nationalLottery {
+      .natLotTitle {
+        font-size: 2.25rem;
+        margin-top: 3rem;
+      }
+      .natLotDescription {
+        margin: 2rem 0;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      .pressLetterImage {
+        margin-bottom: 2rem;
+        height: 37rem;
+        width: auto;
       }
     }
   }
