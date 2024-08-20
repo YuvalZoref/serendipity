@@ -1,10 +1,10 @@
-#corporate {
+#jobs {
   min-height: calc(100vh - 6.4rem);
   display: flex;
   flex-direction: column;
   overflow: hidden;
 
-  .corpSection {
+  .jobsSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,7 @@
 
 
 @media screen and (max-width:560px) {
-  #corporate{
+  #jobs{
     .corpSection {
       width: 85%;
       font-size: 0.8rem;

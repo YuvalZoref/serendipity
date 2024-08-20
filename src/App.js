@@ -4,7 +4,7 @@ import About from './pages/About'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import NoPage from './pages/NoPage'
-import Corporate from './pages/Corporate'
+import Jobs from './pages/Jobs'
 
 
 
@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Corporate" element={<Corporate />} />
+        <Route path="/Jobs" element={<Jobs />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </div>

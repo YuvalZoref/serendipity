@@ -12,9 +12,9 @@ export default function Navbar() {
         <img src={Logo} alt='logo' className='logo'/>
         <div className='navbarDesktop'>
           <Link className='navbarDesktopLink' to='../About'>About</Link>
+          <Link className='navbarDesktopLink' to='../Jobs'>Jobs</Link>
           <Link className='navbarDesktopLink' to='../Blog'>Blog</Link>
           <Link className='navbarDesktopLink' to='../Contact'>Contact</Link>
-          <Link className='navbarDesktopLink' to='../Corporate'>Corporate</Link>
           <Link className='navbarDesktopLink' to='../'>Home</Link>
         </div>
 
@@ -22,9 +22,9 @@ export default function Navbar() {
         <div className='navMenu' style={{display: showMenu ? 'flex':'none'}}>
           <div className='navMenuLinksContainer'>
             <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../About'>About</Link>
+            <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../Jobs'>Jobs</Link>
             <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../Blog'>Blog</Link>
             <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../Contact'>Contact</Link>
-            <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../Corporate'>Corporate</Link>
             <Link className='navMenuLink' onClick={()=>setShowMenu(false)} to='../'>Home</Link>
           </div>
         </div>
