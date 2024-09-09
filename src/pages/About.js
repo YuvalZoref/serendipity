@@ -167,9 +167,16 @@ export default function About() {
         </div>
       </section>
       <div className='link-wags-container'>
-        Click here to check out&nbsp;
-        <a href="https://www.facebook.com/groups/2008820529405469/" rel="noreferrer" target="blank" className='link-wags'>
-         Wags N' Wet Noses Dog Rescue&nbsp; <img src={Paws} alt='paws' className="paws" /></a>
+        <div className='link-wags-section'>
+          Click here to check out&nbsp;
+          <a href="https://www.facebook.com/groups/2008820529405469/" rel="noreferrer" target="blank" className='link-wags'>
+          Wags N' Wet Noses Dog Rescue&nbsp; <img src={Paws} alt='paws' className="paws" /></a>
+        </div>
+        <div className='link-wags-section'>
+          Click here to check out&nbsp;
+          <a href="https://www.westyorkshiredogrescue.co.uk" rel="noreferrer" target="blank" className='link-wydr'>
+          West Yorkshire dog rescue&nbsp; <img src={Paws} alt='paws' className="paws" /></a>
+        </div>
       </div>
       </div>
       <Footer />
