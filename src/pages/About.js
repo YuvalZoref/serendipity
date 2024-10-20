@@ -49,7 +49,7 @@ export default function About() {
             <img src={Sonia} alt='Sonia' className="staffImage" />
             <div className='imgItemSection'>
               <h2 className='staffName'>Sonia Zoref</h2>
-              <h2 className='staffJob'>Founder/Facilitator/Administrator</h2>
+              <h2 className='staffJob'>Project Manager/Founder</h2>
               <p className='staffDescription'>
                 Sonia has an English Literature with Creative Writing Degree that she gained as a mature student,
                 holding down a part time job and raising 3 children. Sonia has facilitated creative writing workshops with Serendipity for almost 5 years.
