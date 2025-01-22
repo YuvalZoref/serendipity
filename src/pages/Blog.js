@@ -13,6 +13,7 @@ import van from '../assets/blog/van.jpg'
 import certificate2 from '../assets/blog/certificate2.jpg'
 import certificate3 from '../assets/blog/certificate3.jpg'
 import pressRelease from '../assets/blog/pressRelease.png'
+import NewLeaflet from '../assets/blog/serenNew.jpg'
 
 
 export default function Blog() {
@@ -54,6 +55,13 @@ export default function Blog() {
           <img src={certificate2} alt='certificate' className='celebSidePic'/>
           <CarouselGallery className='carousel' data={GallerySlides} />
           <img src={party} alt='party' className='celebSidePic'/>
+        </div>
+      </section>
+      <section className='newLeaflet'>
+        <h1 className='newLeafletTitle'>New Class</h1>
+        <p className='newLeafletDescription'>Check out our new upcoming class</p>
+        <div className='newLeafletImage'>
+          <img src={NewLeaflet} alt='newLeaflet'/>
         </div>
       </section>
       <section className='nationalLottery'>

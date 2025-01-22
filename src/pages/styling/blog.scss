@@ -188,6 +188,26 @@
       margin-bottom: 0.5rem;
     }
   }
+  .newLeaflet {
+    .newLeafletTitle {
+      font-size: 2.5rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .newLeafletDescription {
+      margin: 2rem 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    .newLeafletImage {
+      display: flex;
+      justify-content: center;
+      margin: 2rem;
+      margin-bottom: 4rem;
+    }
+   }
+  }
 
 
   @media screen and (max-width:1000px) {
@@ -203,6 +223,7 @@
     }
     .celebs{
       margin: 0 0.75rem;
+      margin-top: 2rem;
       .celebsTitle{
         margin-top: 3rem;
       }
@@ -212,9 +233,9 @@
       }
       .celebspics{
         .carousel{
-          margin: 0 0.5;
+          margin: 0 0.75;
           margin-bottom: 2rem;
-          height: 36rem;
+          height: 34rem;
           width: auto;
         }
         .celebSidePic{
@@ -259,6 +280,23 @@
       }
     }
 
+    .newLeaflet {
+      .newLeafletTitle {
+        font-size: 2.25rem;
+        margin-top: 5rem;
+      }
+      .newLeafletDescription {
+        margin: 2rem 0;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      .newLeafletImage {
+        margin-bottom: 2rem;
+        height: 29rem;
+        /* width: auto; */
+      }
+    }
+
     .nationalLottery {
       .natLotTitle {
         font-size: 2.25rem;
@@ -275,6 +313,4 @@
         width: auto;
       }
     }
-  }
-
 }
