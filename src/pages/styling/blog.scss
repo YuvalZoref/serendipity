@@ -234,6 +234,7 @@
       .celebspics{
         .carousel{
           margin: 0 0.75;
+          padding: 1rem;
           margin-bottom: 2rem;
           height: 34rem;
           width: auto;
@@ -283,10 +284,11 @@
     .newLeaflet {
       .newLeafletTitle {
         font-size: 2.25rem;
-        margin-top: 5rem;
+        margin-top: 4.5rem;
       }
       .newLeafletDescription {
         margin: 2rem 0;
+        margin-bottom: 1.5rem;
         font-size: 1rem;
         font-weight: 600;
       }

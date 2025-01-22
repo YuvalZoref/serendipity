@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../pages/styling/home.scss'
-import books from '../assets/home/homePage.jpg'
+import books from '../assets/home/butterfly.png'
 
 export default function Home() {
   return (

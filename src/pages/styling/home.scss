@@ -1,5 +1,5 @@
 #home {
-  background: #e0e0e0;
+  background: #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,14 +15,14 @@
     /* background: #98a9b196; */
   }
   .homeText{
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     font-weight: 500;
     text-align: center;
     color: #353737;
     font-style: italic;
 
     .homeTextWord{
-      color: rgb(50, 78, 36);
+      color: rgb(74, 113, 54);
       font-size: 6rem;
       margin-left: 0.2rem;
       font-family: 'Dancing Script', cursive;
@@ -32,7 +32,7 @@
   .homeTitle{
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
-    font-size: 3.75rem;
+    font-size: 3rem;
     color: #353737;
     font-weight: 500;
     font-style: italic;
@@ -46,7 +46,7 @@
     align-items: center;
     padding: 1rem;
     border-radius: 0.6rem;
-    background: rgb(46, 65, 36);
+    background: rgb(74, 113, 54);
     /* border: 1px solid #3e553123; */
     box-shadow: #475b5acf 0px 5px 15px;
     .btnText{
@@ -56,24 +56,24 @@
     }
   }
   .homeBtnLink:hover{
-    background: rgb(61, 86, 47);
-    transition: 0.2s ease-in;
+    background: rgba(74, 113, 54, 0.853);
+    transition: 0.3s ease-in;
   }
 
   .homeItemsRight{
     padding: 1rem;
     margin: 2rem;
-    margin-left: 1;
+    margin-left: 0;
     display: flex;
     align-items: flex-start;
     .landingPic{
-      height: 23rem;
-      width: 28rem;
+      height: 18rem;
+      /* width: 28rem; */
       border-radius: 0.8rem;
       opacity: 0.8;
-      /* margin-right: 2rem; */
+      margin-right: 1.5rem;
       border: none;
-      box-shadow: rgba(32, 34, 31, 0.633) 0px 1px 2px 0px, rgba(42, 42, 42, 0.688) 0px 2px 4px 2px;
+      /* box-shadow: rgba(32, 34, 31, 0.633) 0px 1px 2px 0px, rgba(42, 42, 42, 0.688) 0px 2px 4px 2px; */
     }
   }
 }
@@ -119,10 +119,10 @@
       padding: 0;
       padding-bottom: 2rem;
       .landingPic{
-        height: 20rem;
-        margin-top: 0.5rem;
-        max-width: 85%;
-        margin-left: 1.75rem;
+        height: 13rem;
+        margin-top: 2rem;
+        /* max-width: 90%; */
+        margin-left: 2.5rem;
         display: flex;
         align-items: center;
       }
