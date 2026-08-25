@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.78b73c1d.css",
-    "main.js": "/static/js/main.a1a52cea.js",
+    "main.js": "/static/js/main.18e62849.js",
     "static/media/Suki.JPG": "/static/media/Suki.0e5d821a712d49071f8b.JPG",
     "static/media/Joanne.png": "/static/media/Joanne.10f9cf8345182d057b2d.png",
     "static/media/woven.jpg": "/static/media/woven.c4232fa7333105e797cd.jpg",
@@ -19,6 +19,7 @@
     "static/media/pressRelease.png": "/static/media/pressRelease.0102919985e33f8c28a7.png",
     "static/media/certificate3.jpg": "/static/media/certificate3.75692bf7e5110a95d82a.jpg",
     "static/media/certificate2.jpg": "/static/media/certificate2.d9cee110591fc22d997b.jpg",
+    "static/media/Melanie.jpg": "/static/media/Melanie.7325fded2ef758ed689d.jpg",
     "static/media/sonia.jpg": "/static/media/sonia.b538630b50bf81cbb045.jpg",
     "static/media/amanda.jpg": "/static/media/amanda.593623c9e7e115648d55.jpg",
     "static/media/serendipity-logo.png": "/static/media/serendipity-logo.a2b94fb4c5eb3b15c400.png",
@@ -26,10 +27,10 @@
     "static/media/seren-pic.jpg": "/static/media/seren-pic.b35894c5fbfedac3274a.jpg",
     "index.html": "/index.html",
     "main.78b73c1d.css.map": "/static/css/main.78b73c1d.css.map",
-    "main.a1a52cea.js.map": "/static/js/main.a1a52cea.js.map"
+    "main.18e62849.js.map": "/static/js/main.18e62849.js.map"
   },
   "entrypoints": [
     "static/css/main.78b73c1d.css",
-    "static/js/main.a1a52cea.js"
+    "static/js/main.18e62849.js"
   ]
 }
